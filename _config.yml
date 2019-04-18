@@ -1,8 +1,8 @@
-title:            muanchiou
-description:      who is muanchiou
-url:              https://muan.co
+title:            muditgoyal
+description:      who is muditgoyal
+url:              https://muditgoyal.com
 permalink:        pretty
-timezone:         America/New_York
+timezone:         America/Los_Angeles
 sass:
   sass_dir: assets
   style: :compressed
