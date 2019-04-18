@@ -1,0 +1,10 @@
+title:            muanchiou
+description:      who is muanchiou
+url:              https://muan.co
+permalink:        pretty
+timezone:         America/New_York
+sass:
+  sass_dir: assets
+  style: :compressed
+collections:
+  - notes
