@@ -319,13 +319,27 @@ def fetch_eventbrite() -> list[Event]:
     print("  Fetching Eventbrite SF events...")
     events = []
     try:
+        # Build date-specific URLs for the next 7 days to ensure full week coverage
+        today = datetime.now(PACIFIC)
+        date_slugs = []
+        for offset in range(7):
+            d = today + timedelta(days=offset)
+            date_slugs.append(d.strftime("%Y-%m-%d"))
+
         with get_client() as client:
             urls = [
                 "https://www.eventbrite.com/d/ca--san-francisco/events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/events--this-weekend/",
+                "https://www.eventbrite.com/d/ca--san-francisco/events--tomorrow/",
                 "https://www.eventbrite.com/d/ca--san-francisco/music--events--this-week/",
-                "https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/music--events--this-weekend/",
+                "https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events--this-weekend/",
                 "https://www.eventbrite.com/d/ca--san-francisco/arts--events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/nightlife--events--this-weekend/",
             ]
+            # Add date-specific URLs for each day to fill gaps
+            for ds in date_slugs:
+                urls.append(f"https://www.eventbrite.com/d/ca--san-francisco/events--{ds}/{ds}/")
             for url in urls:
                 try:
                     resp = client.get(url)
