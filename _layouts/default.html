@@ -25,14 +25,11 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <h1 class="site-name">
-          <a href="/">Mudit Goyal</a>
-        </h1>
-        <p class="site-desc">Data Science & Analytics Senior Leader, Adjunct Professor at UC Berkeley, startup enthusiast.</p>
-      </header>
       <main class="wrapper">
         {% if page.date %}
+          <nav class="back-nav">
+            <a href="/">&larr; Back</a>
+          </nav>
           <article>
             <header class="post-header">
               <h2 class="post-title">{{ page.title }}</h2>
@@ -56,9 +53,6 @@
           {{ content }}
         {% endif %}
       </main>
-      <footer class="footer">
-        <p>Happy to connect &mdash; shoot me a message.</p>
-      </footer>
     </div>
   </body>
 </html>
