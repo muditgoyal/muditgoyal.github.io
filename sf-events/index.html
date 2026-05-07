@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acontece SF — What's Happening in San Francisco</title>
+  <meta name="description" content="Curated events in San Francisco, scraped from the best sources across the city.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f3ef;
+      --bg-warm: #eae7e0;
+      --bg-card: #ffffff;
+      --text: #2c2825;
+      --text-secondary: #6e6762;
+      --text-muted: #a39e98;
+      --accent: #d4603a;
+      --accent-light: #f0c4b3;
+      --accent-dark: #b5492a;
+      --pacific: #4a7c8a;
+      --pacific-light: #dcedf1;
+      --border: #ddd9d3;
+      --border-light: #eae7e2;
+      --tag-bg: #f0ede8;
+      --shadow-sm: 0 1px 2px rgba(44,40,37,0.04);
+      --shadow-md: 0 4px 16px rgba(44,40,37,0.08);
+      --shadow-lg: 0 8px 32px rgba(44,40,37,0.12);
+      --radius: 10px;
+      --radius-lg: 16px;
+      --font-serif: 'Instrument Serif', Georgia, serif;
+      --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection {
+      background: var(--accent-light);
+      color: var(--accent-dark);
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-dark); }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 56px 0 36px;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .site-title {
+      font-family: var(--font-serif);
+      font-size: 3.2rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+    }
+
+    .site-title .sf {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .site-tagline {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .header-meta .scraped-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: var(--pacific-light);
+      color: var(--pacific);
+      font-weight: 500;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .scraped-badge .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--pacific);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ── Week Nav ── */
+    .week-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+    }
+
+    .week-label {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 400;
+    }
+
+    .week-controls {
+      display: flex;
+      gap: 6px;
+    }
+
+    .week-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 14px;
+      cursor: pointer;
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: all 0.15s;
+    }
+
+    .week-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* ── Day Tabs ── */
+    .day-strip {
+      display: flex;
+      gap: 6px;
+      padding: 0 0 20px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .day-strip::-webkit-scrollbar { display: none; }
+
+    .day-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px 18px;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: all 0.2s;
+      min-width: 76px;
+      border: 1px solid transparent;
+      background: var(--bg-card);
+      font-family: var(--font-sans);
+    }
+
+    .day-chip:hover {
+      border-color: var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .day-chip.active {
+      background: var(--text);
+      color: white;
+      border-color: var(--text);
+      box-shadow: var(--shadow-md);
+    }
+
+    .day-chip .dow {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+    }
+
+    .day-chip.active .dow { color: rgba(255,255,255,0.6); }
+
+    .day-chip .dom {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 1px 0;
+    }
+
+    .day-chip .count {
+      font-size: 0.6rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .day-chip.active .count { color: rgba(255,255,255,0.5); }
+
+    .day-chip.today {
+      border-color: var(--accent);
+    }
+    .day-chip.today .dom {
+      color: var(--accent);
+    }
+    .day-chip.today.active .dom {
+      color: white;
+    }
+
+    /* ── Category Pills ── */
+    .categories {
+      display: flex;
+      gap: 6px;
+      padding: 4px 0 24px;
+      flex-wrap: wrap;
+    }
+
+    .cat-btn {
+      padding: 5px 13px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      border: 1px solid var(--border-light);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-family: var(--font-sans);
+      letter-spacing: 0.01em;
+    }
+
+    .cat-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .cat-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+
+    /* ── Event Cards ── */
+    .events-feed {
+      padding-bottom: 80px;
+    }
+
+    .time-slot {
+      margin-bottom: 4px;
+    }
+
+    .slot-header {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      padding: 24px 0 10px;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .slot-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border-light);
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 22px 26px;
+      margin-bottom: 10px;
+      transition: all 0.25s;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--border);
+      transform: translateY(-2px);
+    }
+
+    .card-inner {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: var(--bg-warm);
+    }
+
+    .card-body { flex: 1; min-width: 0; }
+
+    .card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.25;
+      flex: 1;
+    }
+
+    .card-price {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+      padding-top: 2px;
+      letter-spacing: -0.01em;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .card-venue {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .card-hood {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .card-tag {
+      display: inline-block;
+      padding: 2px 9px;
+      border-radius: 10px;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .card-tag.comedy { background: #fef3c7; color: #a16207; }
+    .card-tag.music { background: #ede9fe; color: #6d28d9; }
+    .card-tag.film { background: #dbeafe; color: #2563eb; }
+    .card-tag.culture { background: #fce7f3; color: #be185d; }
+    .card-tag.tech { background: #d1fae5; color: #047857; }
+    .card-tag.food { background: #fed7aa; color: #c2410c; }
+    .card-tag.outdoor { background: #ccfbf1; color: #0f766e; }
+    .card-tag.nightlife { background: #e0e7ff; color: #4338ca; }
+    .card-tag.art { background: #fae8ff; color: #a21caf; }
+    .card-tag.lectures { background: #f1f5f9; color: #475569; }
+    .card-tag.theater { background: #fecaca; color: #dc2626; }
+    .card-tag.sports { background: #bbf7d0; color: #16a34a; }
+
+    .card-time {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .card-source {
+      margin-left: auto;
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      opacity: 0.6;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── Empty state ── */
+    .empty {
+      text-align: center;
+      padding: 80px 0;
+      color: var(--text-muted);
+    }
+
+    .empty .icon {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+
+    .empty p {
+      font-size: 0.95rem;
+    }
+
+    .empty .hint {
+      font-size: 0.82rem;
+      margin-top: 8px;
+    }
+
+    /* ── Loading ── */
+    .loading {
+      text-align: center;
+      padding: 80px 0;
+    }
+
+    .loading .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 36px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+    }
+
+    .sources-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      justify-content: center;
+      margin-top: 14px;
+    }
+
+    .sources-grid a {
+      color: var(--text-secondary);
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .sources-grid a:hover {
+      background: var(--bg-warm);
+      color: var(--accent);
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      font-size: 0.7rem;
+      opacity: 0.6;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .site-title { font-size: 2.2rem; }
+      .container { padding: 0 16px; }
+      .card { padding: 16px 18px; }
+      .card-title { font-size: 1.1rem; }
+      .card-img { width: 60px; height: 60px; }
+      .day-chip { min-width: 60px; padding: 10px 12px; }
+      .header-row { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="header-row">
+      <div>
+        <h1 class="site-title">Acontece <span class="sf">SF</span></h1>
+        <p class="site-tagline">What's happening in San Francisco this week.</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="scraped-badge"><span class="dot"></span> Live data</span>
+      <span id="scrapedAt"></span>
+      <span id="eventCount"></span>
+    </div>
+  </header>
+
+  <nav class="week-bar">
+    <span class="week-label" id="weekLabel"></span>
+    <div class="week-controls">
+      <button class="week-btn" onclick="shiftWeek(-1)">&larr;</button>
+      <button class="week-btn" onclick="shiftWeek(0)">Today</button>
+      <button class="week-btn" onclick="shiftWeek(1)">&rarr;</button>
+    </div>
+  </nav>
+
+  <div class="day-strip" id="dayStrip"></div>
+  <div class="categories" id="catBar"></div>
+
+  <main class="events-feed" id="feed">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p style="color: var(--text-muted); font-size: 0.85rem;">Loading events...</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Acontece SF — Aggregated from real sources across the city.</p>
+    <div class="sources-grid">
+      <a href="https://sf.funcheap.com" target="_blank">FunCheap SF</a>
+      <a href="https://www.eventbrite.com/d/ca--san-francisco/events/" target="_blank">Eventbrite</a>
+      <a href="https://lu.ma/sf" target="_blank">Luma</a>
+      <a href="https://www.sfstation.com" target="_blank">SFStation</a>
+      <a href="https://data.sfgov.org" target="_blank">SF.gov Open Data</a>
+      <a href="https://www.sfjazz.org" target="_blank">SFJAZZ</a>
+      <a href="https://www.sfmoma.org/events/" target="_blank">SFMOMA</a>
+      <a href="https://19hz.info" target="_blank">19hz.info</a>
+      <a href="https://www.thechapelsf.com/calendar/" target="_blank">The Chapel</a>
+      <a href="https://www.meetup.com/find/?location=us--ca--San%20Francisco" target="_blank">Meetup</a>
+      <a href="https://do415.com" target="_blank">Do415</a>
+      <a href="https://www.sfsymphony.org" target="_blank">SF Symphony</a>
+    </div>
+    <p class="footer-note">Data refreshed automatically every 6 hours. <a href="/">muditgoyal.me</a></p>
+  </footer>
+</div>
+
+<script>
+// ── State ──
+let allEvents = [];
+let scrapedAt = '';
+let weekStart = getMonday(new Date());
+let activeDay = null; // Date object
+let activeCat = 'all';
+
+function getMonday(d) {
+  const dt = new Date(d);
+  const day = dt.getDay();
+  const diff = dt.getDate() - day + (day === 0 ? -6 : 1);
+  dt.setDate(diff);
+  dt.setHours(0, 0, 0, 0);
+  return dt;
+}
+
+function sameDay(a, b) {
+  return a.getFullYear() === b.getFullYear() &&
+         a.getMonth() === b.getMonth() &&
+         a.getDate() === b.getDate();
+}
+
+// ── Load data ──
+async function loadEvents() {
+  try {
+    const resp = await fetch('events.json');
+    if (!resp.ok) throw new Error('No events.json found');
+    const data = await resp.json();
+    allEvents = data.events.map(e => ({
+      ...e,
+      _date: e.start_time ? new Date(e.start_time) : null,
+    })).filter(e => e._date && !isNaN(e._date));
+    scrapedAt = data.scraped_at;
+    document.getElementById('scrapedAt').textContent =
+      `Updated ${new Date(scrapedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
+    document.getElementById('eventCount').textContent = `${allEvents.length} events`;
+  } catch (err) {
+    console.warn('Could not load events.json, using sample data:', err);
+    allEvents = getSampleEvents();
+  }
+
+  // Default to today
+  activeDay = new Date();
+  activeDay.setHours(0, 0, 0, 0);
+  weekStart = getMonday(activeDay);
+  render();
+}
+
+// ── Sample fallback events ──
+function getSampleEvents() {
+  const now = new Date();
+  const base = getMonday(now);
+  const ev = (dayOff, hour, title, venue, hood, cat, price, desc) => {
+    const d = new Date(base);
+    d.setDate(d.getDate() + dayOff);
+    d.setHours(hour, 0, 0, 0);
+    return {
+      title, description: desc, venue, neighborhood: hood, category: cat,
+      start_time: d.toISOString(), price, url: '', source: 'sample',
+      image_url: '', id: Math.random().toString(36).slice(2, 10), _date: d,
+    };
+  };
+  return [
+    ev(0, 19, 'Open Mic Comedy Night', 'The Setup', 'Inner Sunset', 'comedy', 'Free', 'Weekly open mic featuring Bay Area comedians.'),
+    ev(0, 19, 'Monday Jazz Sessions', 'SFJAZZ Center', 'Hayes Valley', 'music', '$35', 'Intimate jazz performances every Monday evening.'),
+    ev(1, 18, 'Author Talk: Ocean Vuong', 'City Lights Bookstore', 'North Beach', 'lectures', 'Free', 'Acclaimed poet reads from new collection.'),
+    ev(1, 19, 'Wong Kar-wai Retrospective', 'Roxie Theater', 'Mission', 'film', '$14', 'Screening of In the Mood for Love.'),
+    ev(2, 20, 'Headliner: Aparna Nancherla', "Cobb's Comedy Club", 'North Beach', 'comedy', '$30', 'Netflix comedian headlines with special guests.'),
+    ev(2, 18, 'SF Python Meetup', 'GitHub HQ', 'SoMa', 'tech', 'Free', 'Building production APIs with FastAPI.'),
+    ev(3, 20, 'Thundercat Live', 'Great American Music Hall', 'Tenderloin', 'music', '$55', 'Bass virtuoso and genre-blender returns.'),
+    ev(3, 19, 'Vertigo on 35mm', 'Castro Theatre', 'Castro', 'film', '$18', "Hitchcock's SF classic projected on film."),
+    ev(3, 17, 'First Thursdays at YBCA', 'Yerba Buena Center for the Arts', 'SoMa', 'art', 'Free', 'Gallery openings and artist talks.'),
+    ev(4, 20, 'Khruangbin', 'The Warfield', 'Mid-Market', 'music', '$70', 'Houston trios hypnotic global-funk grooves.'),
+    ev(4, 18, 'Legion of Honor After Hours', 'Legion of Honor', 'Lincoln Park', 'culture', '$30', 'Champagne, string quartet, and Bay views.'),
+    ev(4, 21, 'Friday Night Improv', 'The Setup', 'Inner Sunset', 'comedy', '$15', 'Two improv troupes face off. BYOB.'),
+    ev(5, 8, 'Ferry Plaza Farmers Market', 'Ferry Building', 'Embarcadero', 'food', 'Free', 'Saturday institution. 100+ vendors.'),
+    ev(5, 13, 'Golden Gate Park Band', 'Golden Gate Park', 'Golden Gate Park', 'music', 'Free', 'Free concert at Spreckels Temple of Music.'),
+    ev(5, 21, 'DNA Lounge: Industrial Night', 'DNA Lounge', 'SoMa', 'nightlife', '$20', 'Darkwave, EBM, and industrial dance.'),
+    ev(6, 11, 'Sunday Jazz Brunch', 'SFJAZZ Center', 'Hayes Valley', 'music', '$25', 'Live jazz trio with brunch menu.'),
+    ev(6, 11, 'Presidio Picnic', 'Crissy Field', 'Presidio', 'outdoor', 'Free', 'Food trucks, live music, Golden Gate views.'),
+    ev(6, 14, 'Roxie Matinee: Moonlight', 'Roxie Theater', 'Mission', 'film', '$14', 'Barry Jenkins Oscar winner.'),
+  ];
+}
+
+// ── Rendering ──
+const ALL_CATS = ['all','music','comedy','film','art','culture','theater','tech','food','outdoor','nightlife','lectures','sports'];
+
+function formatTime(d) {
+  return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+}
+
+function timeSlot(d) {
+  const h = d.getHours();
+  if (h < 12) return 'Morning';
+  if (h < 17) return 'Afternoon';
+  if (h < 20) return 'Evening';
+  return 'Night';
+}
+
+function weekRange(ws) {
+  const we = new Date(ws); we.setDate(we.getDate() + 6);
+  const opts = { month: 'long' };
+  const sm = ws.toLocaleDateString('en-US', opts);
+  const em = we.toLocaleDateString('en-US', opts);
+  if (sm === em) return `${sm} ${ws.getDate()}\u2013${we.getDate()}, ${ws.getFullYear()}`;
+  return `${sm} ${ws.getDate()} \u2013 ${em} ${we.getDate()}, ${we.getFullYear()}`;
+}
+
+function eventsOnDay(date) {
+  return allEvents.filter(e => e._date && sameDay(e._date, date));
+}
+
+function renderDayStrip() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const strip = document.getElementById('dayStrip');
+  const days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  strip.innerHTML = days.map((name, i) => {
+    const d = new Date(weekStart); d.setDate(d.getDate() + i);
+    const n = eventsOnDay(d).length;
+    const isActive = sameDay(d, activeDay);
+    const isToday = sameDay(d, today);
+    return `<button class="day-chip ${isActive ? 'active' : ''} ${isToday ? 'today' : ''}"
+      onclick="pickDay(${i})">
+      <span class="dow">${name}</span>
+      <span class="dom">${d.getDate()}</span>
+      <span class="count">${n} event${n !== 1 ? 's' : ''}</span>
+    </button>`;
+  }).join('');
+}
+
+function renderCategories() {
+  const bar = document.getElementById('catBar');
+  // Only show categories that have events on this day
+  const dayEvts = eventsOnDay(activeDay);
+  const present = new Set(dayEvts.map(e => e.category));
+  bar.innerHTML = ALL_CATS
+    .filter(c => c === 'all' || present.has(c))
+    .map(c => {
+      const label = c === 'all' ? 'All' : c.charAt(0).toUpperCase() + c.slice(1);
+      const count = c === 'all' ? dayEvts.length : dayEvts.filter(e => e.category === c).length;
+      return `<button class="cat-btn ${activeCat === c ? 'active' : ''}"
+        onclick="pickCat('${c}')">${label} (${count})</button>`;
+    }).join('');
+}
+
+function renderFeed() {
+  const feed = document.getElementById('feed');
+  let evts = eventsOnDay(activeDay);
+  if (activeCat !== 'all') evts = evts.filter(e => e.category === activeCat);
+  evts.sort((a, b) => a._date - b._date);
+
+  if (!evts.length) {
+    feed.innerHTML = `<div class="empty">
+      <div class="icon">\u{1F32B}\uFE0F</div>
+      <p>No events ${activeCat !== 'all' ? `in <b>${activeCat}</b> ` : ''}on this day.</p>
+      <p class="hint">Try another day or run the scraper for fresh data.</p>
+    </div>`;
+    return;
+  }
+
+  const groups = {};
+  evts.forEach(e => {
+    const slot = timeSlot(e._date);
+    (groups[slot] = groups[slot] || []).push(e);
+  });
+
+  const order = ['Morning', 'Afternoon', 'Evening', 'Night'];
+  feed.innerHTML = order.filter(s => groups[s]).map(slot => `
+    <div class="time-slot">
+      <div class="slot-header">${slot}</div>
+      ${groups[slot].map(e => `
+        <div class="card" ${e.url ? `onclick="window.open('${e.url}','_blank')"` : ''}>
+          <div class="card-inner">
+            ${e.image_url ? `<img class="card-img" src="${e.image_url}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+            <div class="card-body">
+              <div class="card-head">
+                <h3 class="card-title">${escHtml(e.title)}</h3>
+                <span class="card-price">${escHtml(e.price)}</span>
+              </div>
+              ${e.description ? `<p class="card-desc">${escHtml(e.description)}</p>` : ''}
+              <div class="card-footer">
+                ${e.venue ? `<span class="card-venue">${escHtml(e.venue)}</span>` : ''}
+                <span class="card-hood">${escHtml(e.neighborhood)}</span>
+                <span class="card-tag ${e.category}">${e.category}</span>
+                <span class="card-time">${formatTime(e._date)}</span>
+                <span class="card-source">via ${e.source}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s || '';
+  return d.innerHTML;
+}
+
+function render() {
+  document.getElementById('weekLabel').textContent = weekRange(weekStart);
+  renderDayStrip();
+  renderCategories();
+  renderFeed();
+}
+
+// ── Interactions ──
+function pickDay(i) {
+  activeDay = new Date(weekStart);
+  activeDay.setDate(activeDay.getDate() + i);
+  activeCat = 'all';
+  render();
+}
+
+function pickCat(c) {
+  activeCat = c;
+  renderCategories();
+  renderFeed();
+}
+
+function shiftWeek(dir) {
+  if (dir === 0) {
+    activeDay = new Date(); activeDay.setHours(0,0,0,0);
+    weekStart = getMonday(activeDay);
+  } else {
+    weekStart.setDate(weekStart.getDate() + dir * 7);
+    activeDay = new Date(weekStart);
+  }
+  activeCat = 'all';
+  render();
+}
+
+// ── Init ──
+loadEvents();
+</script>
+
+</body>
+</html>
