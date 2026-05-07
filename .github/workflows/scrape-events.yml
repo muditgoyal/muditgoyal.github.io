@@ -2,8 +2,8 @@ name: Scrape SF Events
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run once daily at 6am PT (1pm UTC)
+    - cron: '0 13 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
     paths:

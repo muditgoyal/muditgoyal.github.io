@@ -319,13 +319,27 @@ def fetch_eventbrite() -> list[Event]:
     print("  Fetching Eventbrite SF events...")
     events = []
     try:
+        # Build date-specific URLs for the next 7 days to ensure full week coverage
+        today = datetime.now(PACIFIC)
+        date_slugs = []
+        for offset in range(7):
+            d = today + timedelta(days=offset)
+            date_slugs.append(d.strftime("%Y-%m-%d"))
+
         with get_client() as client:
             urls = [
                 "https://www.eventbrite.com/d/ca--san-francisco/events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/events--this-weekend/",
+                "https://www.eventbrite.com/d/ca--san-francisco/events--tomorrow/",
                 "https://www.eventbrite.com/d/ca--san-francisco/music--events--this-week/",
-                "https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/music--events--this-weekend/",
+                "https://www.eventbrite.com/d/ca--san-francisco/food-and-drink--events--this-weekend/",
                 "https://www.eventbrite.com/d/ca--san-francisco/arts--events--this-week/",
+                "https://www.eventbrite.com/d/ca--san-francisco/nightlife--events--this-weekend/",
             ]
+            # Add date-specific URLs for each day to fill gaps
+            for ds in date_slugs:
+                urls.append(f"https://www.eventbrite.com/d/ca--san-francisco/events--{ds}/{ds}/")
             for url in urls:
                 try:
                     resp = client.get(url)
@@ -466,20 +480,32 @@ def _parse_luma_html(html: str, events: list[Event]):
     for script in soup.find_all("script", id="__NEXT_DATA__"):
         try:
             data = json.loads(script.string)
-            page_props = data.get("props", {}).get("pageProps", {})
-            for key in ["initialData", "data"]:
-                for entry in page_props.get(key, {}).get("entries", []):
-                    evt = entry.get("event", {})
-                    api_id = evt.get("api_id", "")
-                    events.append(Event(
-                        title=evt.get("name", ""),
-                        description=clean_html(evt.get("description", "")),
-                        venue="", neighborhood="San Francisco",
-                        category=classify_event(evt.get("name",""), evt.get("description","")),
-                        start_time=evt.get("start_at", ""), price="See listing",
-                        url=f"https://lu.ma/{api_id}" if api_id else "",
-                        source="Luma",
-                    ))
+            initial = data.get("props", {}).get("pageProps", {}).get("initialData", {})
+            # Structure: initialData.data.events[] (each has .event sub-object)
+            inner = initial.get("data", initial)
+            entries = inner.get("events", inner.get("entries", []))
+            for entry in entries:
+                evt = entry.get("event", entry)
+                api_id = evt.get("api_id", entry.get("api_id", ""))
+                start = evt.get("start_at", entry.get("start_at", ""))
+                cover = entry.get("cover_image", {})
+                image_url = cover.get("url", "") if isinstance(cover, dict) else ""
+                venue_name = evt.get("location_name", "") or ""
+                geo = evt.get("geo_address_info", {}) or {}
+
+                events.append(Event(
+                    title=evt.get("name", ""),
+                    description=clean_html(evt.get("description", "")),
+                    venue=venue_name,
+                    neighborhood=guess_neighborhood(
+                        f"{venue_name} {geo.get('city', '')}",
+                        venue_name,
+                    ),
+                    category=classify_event(evt.get("name", ""), evt.get("description", "")),
+                    start_time=start, price="See listing",
+                    url=f"https://lu.ma/{api_id}" if api_id else "",
+                    source="Luma", image_url=image_url,
+                ))
         except json.JSONDecodeError:
             continue
 
@@ -715,33 +741,147 @@ def fetch_meetup() -> list[Event]:
 
 
 # ══════════════════════════════════════════════════════════════
-# Source 10: Do415 (RSS)
+# Source 10: DoTheBay (formerly Do415) — HTML scraper
 # ══════════════════════════════════════════════════════════════
 
-def fetch_do415() -> list[Event]:
-    print("  Fetching Do415 events...")
+def fetch_dothebay() -> list[Event]:
+    print("  Fetching DoTheBay events...")
     events = []
     try:
-        feed = feedparser.parse("https://do415.com/feed")
-        if not feed.entries:
-            feed = feedparser.parse("https://do415.com/rss")
-        for entry in feed.entries[:40]:
-            title = entry.get("title", "")
-            desc = clean_html(entry.get("summary", ""))
-            link = entry.get("link", "")
-            pub = entry.get("published_parsed")
-            iso = datetime(*pub[:6], tzinfo=PACIFIC).isoformat() if pub else (
-                extract_date_from_title(title) or datetime.now(PACIFIC).isoformat()
-            )
-            events.append(Event(
-                title=title, description=desc, venue="",
-                neighborhood=guess_neighborhood(f"{title} {desc}"),
-                category=classify_event(title, desc),
-                start_time=iso, price="See listing", url=link, source="Do415",
-            ))
+        with get_client() as client:
+            resp = client.get("https://dothebay.com/events")
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.text, "html.parser")
+                for card in soup.select(".ds-listing.event-card")[:40]:
+                    # Title is in .ds-listing-event-title-text
+                    title_el = card.select_one(".ds-listing-event-title-text")
+                    if not title_el:
+                        continue
+                    title = title_el.get_text(strip=True)
+
+                    # Link
+                    link_el = card.select_one("a.ds-listing-event-title")
+                    href = link_el["href"] if link_el else ""
+                    url = href if href.startswith("http") else f"https://dothebay.com{href}"
+
+                    # Venue
+                    venue_el = card.select_one(".ds-venue-name")
+                    venue = venue_el.get_text(strip=True) if venue_el else ""
+
+                    # Time
+                    time_el = card.select_one(".ds-event-time")
+                    time_text = time_el.get_text(strip=True) if time_el else ""
+
+                    # Date — parse from the card's date elements
+                    # Cards have day-of-week + day + month spans
+                    date_parts = card.select(".ds-date-short span")
+                    start = ""
+                    if date_parts:
+                        date_str = " ".join(p.get_text(strip=True) for p in date_parts)
+                        start = extract_date_from_title(date_str) or ""
+
+                    # Category from class (e.g., ds-event-category-music)
+                    classes = " ".join(card.get("class", []))
+                    category = "culture"
+                    for cat_key in CATEGORY_KEYWORDS:
+                        if cat_key in classes:
+                            category = cat_key
+                            break
+                    # More specific mapping from DoTheBay categories
+                    if "comedy" in classes:
+                        category = "comedy"
+                    elif "music" in classes:
+                        category = "music"
+                    elif "film" in classes:
+                        category = "film"
+                    elif "food" in classes or "drink" in classes:
+                        category = "food"
+                    elif "theatre" in classes or "performing" in classes:
+                        category = "theater"
+                    elif "recreation" in classes:
+                        category = "outdoor"
+                    elif "sports" in classes:
+                        category = "sports"
+
+                    # Price
+                    price_el = card.select_one(".ds-listing-ticket-price")
+                    price = price_el.get_text(strip=True) if price_el else "See listing"
+                    if price.lower() in ("buy", ""):
+                        price = "See listing"
+
+                    if not start:
+                        start = datetime.now(PACIFIC).isoformat()
+
+                    events.append(Event(
+                        title=title, description="",
+                        venue=venue,
+                        neighborhood=guess_neighborhood(f"{title} {venue}", venue),
+                        category=category, start_time=start,
+                        price=price, url=url, source="DoTheBay",
+                    ))
     except Exception as e:
-        print(f"  [WARN] Do415 failed: {e}")
-    print(f"  Got {len(events)} from Do415")
+        print(f"  [WARN] DoTheBay failed: {e}")
+    print(f"  Got {len(events)} from DoTheBay")
+    return events
+
+
+# ══════════════════════════════════════════════════════════════
+# Source 13: DowntownSF (downtownsf.org)
+# ══════════════════════════════════════════════════════════════
+
+def fetch_downtownsf() -> list[Event]:
+    print("  Fetching DowntownSF events...")
+    events = []
+    try:
+        with get_client() as client:
+            resp = client.get("https://downtownsf.org/things-to-do/events")
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.text, "html.parser")
+                for card in soup.select("a.evcard")[:50]:
+                    text = card.get_text(" | ", strip=True)
+                    href = card.get("href", "")
+                    url = href if href.startswith("http") else f"https://downtownsf.org{href}"
+
+                    # Parse the pipe-separated text:
+                    # "Event Title | Time | Venue | View Details | Day | DayNum | Month"
+                    parts = [p.strip() for p in text.split("|")]
+                    title = parts[0] if parts else ""
+                    if not title or title == "View Details":
+                        continue
+
+                    time_str = parts[1] if len(parts) > 1 else ""
+                    venue = parts[2] if len(parts) > 2 else ""
+                    # Clean up venue (remove "View Details")
+                    if venue == "View Details":
+                        venue = ""
+
+                    # Try to get date from the last parts (Day, DayNum, Month)
+                    start = ""
+                    if len(parts) >= 7:
+                        day_num = parts[-2].strip()
+                        month_name = parts[-1].strip()
+                        date_str = f"{month_name} {day_num}"
+                        start = extract_date_from_title(date_str) or ""
+                    elif len(parts) >= 6:
+                        day_num = parts[-2].strip()
+                        month_name = parts[-1].strip()
+                        date_str = f"{month_name} {day_num}"
+                        start = extract_date_from_title(date_str) or ""
+
+                    if not start:
+                        start = datetime.now(PACIFIC).isoformat()
+
+                    events.append(Event(
+                        title=title, description="",
+                        venue=venue,
+                        neighborhood=guess_neighborhood(f"{title} {venue}", venue),
+                        category=classify_event(title, ""),
+                        start_time=start, price="Free",
+                        url=url, source="DowntownSF",
+                    ))
+    except Exception as e:
+        print(f"  [WARN] DowntownSF failed: {e}")
+    print(f"  Got {len(events)} from DowntownSF")
     return events
 
 
@@ -817,9 +957,10 @@ ALL_SOURCES = [
     ("19hz", fetch_19hz),
     ("The Chapel", fetch_the_chapel),
     ("Meetup", fetch_meetup),
-    ("Do415", fetch_do415),
+    ("DoTheBay", fetch_dothebay),
     ("SF Symphony", fetch_sf_symphony),
     ("SFMOMA", fetch_sfmoma),
+    ("DowntownSF", fetch_downtownsf),
 ]
 
 

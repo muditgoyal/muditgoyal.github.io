@@ -73,8 +73,8 @@ img { max-width: 100%; }
   margin-bottom: 6px;
 
   a {
-    color: $text;
-    &:hover { color: $accent; }
+    color: $accent;
+    &:hover { color: $accent-dark; }
   }
 }
 
