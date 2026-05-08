@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-08T11:34:23.651098-07:00",
+  "scraped_at": "2026-05-08T11:34:51.882507-07:00",
   "event_count": 91,
   "sources": [
     "DoTheBay",
@@ -15,12 +15,12 @@
       "venue": "The Masonic",
       "neighborhood": "Nob Hill",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.615497-07:00",
+      "start_time": "2026-05-08T11:34:51.845815-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/avtt-pttn-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "1061fdd04ae6"
+      "id": "8bc19d27a284"
     },
     {
       "title": "Hamnet",
@@ -28,12 +28,12 @@
       "venue": "Toni Rembe Theater",
       "neighborhood": "San Francisco",
       "category": "theater",
-      "start_time": "2026-05-08T11:34:23.616953-07:00",
+      "start_time": "2026-05-08T11:34:51.847326-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/4/22/hamnet-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "923eb9386695"
+      "id": "164ac3bdc7c1"
     },
     {
       "title": "Pennywise",
@@ -41,12 +41,12 @@
       "venue": "The Fillmore",
       "neighborhood": "Western Addition",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.618554-07:00",
+      "start_time": "2026-05-08T11:34:51.848973-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/live-105-welcomes-pennywise-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "c5b062f25c8d"
+      "id": "496acf1ba183"
     },
     {
       "title": "Alex G",
@@ -54,12 +54,12 @@
       "venue": "San Jose Civic",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.619817-07:00",
+      "start_time": "2026-05-08T11:34:51.850358-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/alex-g-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "e856fb0a7151"
+      "id": "f2bc1f30e8f2"
     },
     {
       "title": "Emma Willmann",
@@ -67,12 +67,12 @@
       "venue": "Punch Line San Francisco",
       "neighborhood": "Financial District",
       "category": "comedy",
-      "start_time": "2026-05-08T11:34:23.621214-07:00",
+      "start_time": "2026-05-08T11:34:51.851819-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/emma-willmann-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "a32652b358dc"
+      "id": "678c719e387c"
     },
     {
       "title": "Secret Comedy Show",
@@ -80,12 +80,12 @@
       "venue": "Mr. Mahjong's",
       "neighborhood": "San Francisco",
       "category": "comedy",
-      "start_time": "2026-05-08T11:34:23.622462-07:00",
+      "start_time": "2026-05-08T11:34:51.853103-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/weekly/fri/sf-secret-speakeasy-comedy-show-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "03cb70247630"
+      "id": "40fb4745de44"
     },
     {
       "title": "Luca Lozano & Mr. Ho + more",
@@ -93,12 +93,12 @@
       "venue": "Public Works",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.623871-07:00",
+      "start_time": "2026-05-08T11:34:51.854576-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/luca-lozano-mr-ho-more-tba-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "3d7429750748"
+      "id": "8dce886f1bfc"
     },
     {
       "title": "Concrete Boys",
@@ -106,12 +106,12 @@
       "venue": "The Independent",
       "neighborhood": "Western Addition",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.625535-07:00",
+      "start_time": "2026-05-08T11:34:51.856207-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/concrete-boys-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "e56706fcd098"
+      "id": "22821fc4136e"
     },
     {
       "title": "Kettama",
@@ -119,12 +119,12 @@
       "venue": "The Regency Ballroom",
       "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.627163-07:00",
+      "start_time": "2026-05-08T11:34:51.857858-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kettama-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "e7d900c18796"
+      "id": "a3dfbd1e36a8"
     },
     {
       "title": "Jordan Jensen",
@@ -132,12 +132,12 @@
       "venue": "Cobb's Comedy Club",
       "neighborhood": "North Beach",
       "category": "comedy",
-      "start_time": "2026-05-08T11:34:23.628618-07:00",
+      "start_time": "2026-05-08T11:34:51.859326-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/jordan-jensen-bus-ted-up-tour-tickets-9elqd7l",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "1fd70e8b6c7e"
+      "id": "56fe9f2b50f9"
     },
     {
       "title": "Princess Forever w/ Darlene Mitchell",
@@ -145,12 +145,12 @@
       "venue": "August Hall",
       "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.631603-07:00",
+      "start_time": "2026-05-08T11:34:51.862413-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/princess-forever-darlene-mitchell-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "263edfa18c8f"
+      "id": "8484286938a3"
     },
     {
       "title": "Shiba San",
@@ -158,12 +158,12 @@
       "venue": "1015 Folsom",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.634561-07:00",
+      "start_time": "2026-05-08T11:34:51.865499-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/shiba-san-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "237a458a87e8"
+      "id": "354f5be5ad4d"
     },
     {
       "title": "The 29th San Francisco Silent Film Festival",
@@ -171,12 +171,12 @@
       "venue": "The Castro",
       "neighborhood": "Castro",
       "category": "film",
-      "start_time": "2026-05-08T11:34:23.636272-07:00",
+      "start_time": "2026-05-08T11:34:51.867274-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/6/the-29th-san-francisco-silent-film-festival-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "de97c8d50f65"
+      "id": "cd305b99db32"
     },
     {
       "title": "Kehani - 2nd Show Added!",
@@ -184,12 +184,12 @@
       "venue": "Graton Resort & Casino",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.637522-07:00",
+      "start_time": "2026-05-08T11:34:51.868561-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kehani-2nd-show-added-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "8298eb180c82"
+      "id": "1fee4723200f"
     },
     {
       "title": "Kehlani",
@@ -197,12 +197,12 @@
       "venue": "Graton Resort & Casino",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.638817-07:00",
+      "start_time": "2026-05-08T11:34:51.869884-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kehlani-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "83bd536fde1e"
+      "id": "c75f8469922b"
     },
     {
       "title": "The Academy Is...",
@@ -210,12 +210,12 @@
       "venue": "The UC Theatre",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.640226-07:00",
+      "start_time": "2026-05-08T11:34:51.871343-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/the-academy-is-almost-here-20th-anniversary-tour-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "062ad656b83a"
+      "id": "67ce97ec749d"
     },
     {
       "title": "Dirtybird Social Club",
@@ -223,12 +223,12 @@
       "venue": "San Francisco",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-05-08T11:34:23.641365-07:00",
+      "start_time": "2026-05-08T11:34:51.872527-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/2/dirtybird-social-club-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "bb7f0065751f"
+      "id": "f59c6a106b92"
     },
     {
       "title": "Hiromi's SONICWONDER",
@@ -236,12 +236,12 @@
       "venue": "SFJAZZ Center",
       "neighborhood": "Hayes Valley",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.642948-07:00",
+      "start_time": "2026-05-08T11:34:51.874145-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/hiromi-s-sonicwonder-tickets-klqeom8",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "6bc26f7d3bbb"
+      "id": "88a7316713d4"
     },
     {
       "title": "Dancing With Friends",
@@ -249,12 +249,12 @@
       "venue": "Public Works",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.644341-07:00",
+      "start_time": "2026-05-08T11:34:51.875607-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/dancing-with-friends-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "51022cad9bb6"
+      "id": "c9a963a23910"
     },
     {
       "title": "Jim Messina",
@@ -262,12 +262,12 @@
       "venue": "The Freight",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.645741-07:00",
+      "start_time": "2026-05-08T11:34:51.877053-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/jim-messina-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "14a5e30e7ac3"
+      "id": "d23a002e5eff"
     },
     {
       "title": "Joeski, Jamie Swing, John Andrew, LDP Crew",
@@ -275,12 +275,12 @@
       "venue": "Monarch",
       "neighborhood": "SoMa",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.647099-07:00",
+      "start_time": "2026-05-08T11:34:51.878467-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/joeski-jamie-swing-john-andrew-ldp-crew-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "4e5d71cdf72e"
+      "id": "5f45d30fc1eb"
     },
     {
       "title": "trauma ray, Glixen",
@@ -288,12 +288,12 @@
       "venue": "The Chapel",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T11:34:23.649889-07:00",
+      "start_time": "2026-05-08T11:34:51.881363-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/trauma-ray-glixen-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "97e1b5e3c6d5"
+      "id": "9a6fb31e6492"
     },
     {
       "title": "Museum of The Human Web",
