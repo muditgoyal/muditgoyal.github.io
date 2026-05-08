@@ -451,7 +451,7 @@ def fetch_luma() -> list[Event]:
                 data = resp.json()
                 for entry in data.get("entries", data.get("events", [])):
                     evt = entry.get("event", entry)
-                    api_id = evt.get("api_id", "")
+                    slug = evt.get("url", "")  # short slug like "h85fumdt"
                     geo = evt.get("geo_address_info", {}) or {}
                     venue_name = evt.get("location_name", "") or geo.get("full_address", "")
                     events.append(Event(
@@ -462,7 +462,7 @@ def fetch_luma() -> list[Event]:
                         category=classify_event(evt.get("name",""), evt.get("description","")),
                         start_time=evt.get("start_at", ""),
                         price="See listing",
-                        url=f"https://lu.ma/{api_id}" if api_id else "",
+                        url=f"https://luma.com/{slug}" if slug else "",
                         source="Luma", image_url=evt.get("cover_url", ""),
                     ))
             else:
@@ -486,7 +486,7 @@ def _parse_luma_html(html: str, events: list[Event]):
             entries = inner.get("events", inner.get("entries", []))
             for entry in entries:
                 evt = entry.get("event", entry)
-                api_id = evt.get("api_id", entry.get("api_id", ""))
+                slug = evt.get("url", "")  # short slug like "h85fumdt"
                 start = evt.get("start_at", entry.get("start_at", ""))
                 cover = entry.get("cover_image", {})
                 image_url = cover.get("url", "") if isinstance(cover, dict) else ""
@@ -503,7 +503,7 @@ def _parse_luma_html(html: str, events: list[Event]):
                     ),
                     category=classify_event(evt.get("name", ""), evt.get("description", "")),
                     start_time=start, price="See listing",
-                    url=f"https://lu.ma/{api_id}" if api_id else "",
+                    url=f"https://luma.com/{slug}" if slug else "",
                     source="Luma", image_url=image_url,
                 ))
         except json.JSONDecodeError:

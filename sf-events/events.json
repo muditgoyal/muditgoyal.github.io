@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-05-08T07:50:27.999666-07:00",
-  "event_count": 252,
+  "scraped_at": "2026-05-08T11:33:26.764464-07:00",
+  "event_count": 248,
   "sources": [
     "DoTheBay",
     "DowntownSF",
@@ -33,34 +33,8 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/drag-bingo-san-francisco-ultimate-drag-queen-bingo-drag-show-in-sf-tickets-1323911708559",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1003825653%2F1392133986523%2F1%2Foriginal.20250408-143100?crop=focalpoint&fit=crop&w=391&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fcf9bb26c47ec92e11a6ee040110d382",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1003825653%2F1392133986523%2F1%2Foriginal.20250408-143100?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6579129391cabd78a04b8d1d7c2e73a6",
       "id": "b546fa60143c"
-    },
-    {
-      "title": "SF Online Speed Dating (33-42 age group)",
-      "description": "Meet someone special and have fun connecting with new people!",
-      "venue": "SF Online Event",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/sf-online-speed-dating-33-42-age-group-tickets-1977345300021",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1016463183%2F2735577796041%2F1%2Foriginal.20250425-031047?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.431818181818&fp-y=0.543990011109&s=213995c3ac0cdd5f7276e6dd027aa3b8",
-      "id": "c7fbdd2bde67"
-    },
-    {
-      "title": "$10 Community Class: Vinyasa Flow @ Love Story Yoga",
-      "description": "Join us for a sweaty Vinyasa Flow class at Love Story Yoga - perfect for all levels and a great way to start your day!",
-      "venue": "Love Story Yoga - Valencia",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/10-community-class-vinyasa-flow-love-story-yoga-tickets-1983390830365",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1177774446%2F1323209337813%2F1%2Foriginal.20260217-215230?w=391&auto=format%2Ccompress&q=75&sharp=10&s=1f45ad5c5a9a4f5adf5b2e8d6794cb49",
-      "id": "d943d132663e"
     },
     {
       "title": "SF Online Speed Dating (56+ age group)",
@@ -76,6 +50,32 @@
       "id": "9affefde70e2"
     },
     {
+      "title": "Self-Care City Scavenger Hunt: Based on Hot Habits Series - Daly City Area",
+      "description": "Self-Care City Scavenger Hunt – Based on Hot Habits Book Series. A fun hunt in your city to help you explore the sites and build wellness!",
+      "venue": "*Recommended scavenger starting point or other city spot of your choice! (YOU MUST USE PDF TICKETS EMAILED FOR EVENT- NO MOBILE APP OR QR CODES ACCEPTED)",
+      "neighborhood": "San Francisco",
+      "category": "lectures",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/self-care-city-scavenger-hunt-based-on-hot-habits-series-daly-city-area-tickets-1055439240179",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F844472279%2F1395832153743%2F1%2Foriginal.20240907-195113?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=da13dd3daaccfa6bfa7611f197ac10a8",
+      "id": "2e612e39ebeb"
+    },
+    {
+      "title": "SF Online Speed Dating (43-55 age group)",
+      "description": "Meet someone special and have fun connecting with new people!",
+      "venue": "SF Online Event",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/sf-online-speed-dating-43-55-age-group-tickets-1977345360201",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1016421353%2F2735577796041%2F1%2Foriginal.20250425-011532?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=5e-05&fp-y=5e-05&s=873273aa49ee603436111dbd988462d0",
+      "id": "20641474202f"
+    },
+    {
       "title": "Afro Habibi",
       "description": "Join us at thee Black & Arab dance party ️‍️‍️‍️‍in SF for Black/Brown queer and trans people!",
       "venue": "The Stud",
@@ -85,7 +85,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/afro-habibi-tickets-1983393516399",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179061275%2F2992458475139%2F1%2Foriginal.20260304-224733?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03311cfe031c20d3002d140f2dfc1b33",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179061275%2F2992458475139%2F1%2Foriginal.20260304-224733?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1b7ba1b89330f2a8b44678cb605f7949",
       "id": "8ea62933f966"
     },
     {
@@ -137,73 +137,8 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/ricky-aguilars-afro-nativo-at-muddy-waters-tickets-1981063319718",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175393191%2F255581392313%2F1%2Foriginal.20260120-223810?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=603d5c8f7d370105825681758247532d",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175393191%2F255581392313%2F1%2Foriginal.20260120-223810?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=40252352ac29704bee986a7f2145da59",
       "id": "83fe517c84e1"
-    },
-    {
-      "title": "Hawthorn feat. Nate Rioz + Roughneck, Djcasiboy, Xtheartist, Dj ant 1won",
-      "description": "Table Reservations: Call/Text 415-969-0196",
-      "venue": "Hawthorn",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/hawthorn-feat-nate-rioz-roughneck-djcasiboy-xtheartist-dj-ant-1won-tickets-1987975084994",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183258864%2F106679522699%2F1%2Foriginal.20260428-185728?crop=focalpoint&fit=crop&w=333&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=286b4a957cd780528f828d6bf9bdef11",
-      "id": "aefafcdd3455"
-    },
-    {
-      "title": "Flash Fridays @ZOE: RnB | Hits| Buy 1 Get 1 Drink Specials",
-      "description": "Join us at ZOE for Flash Fridays w/ rotating DJ's playing rnb & throwback hits buy one, get one free drink deal with your RSVP before 10:30",
-      "venue": "ZOE Cocktail Bar, 579 Howard Street, San Francisco, CA, USA",
-      "neighborhood": "San Francisco",
-      "category": "nightlife",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/flash-fridays-zoe-rnb-hits-buy-1-get-1-drink-specials-tickets-1975151213449",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171530880%2F2492954710331%2F1%2Foriginal.20251121-223023?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fefe430c9724ca92a1edc12eb2458667",
-      "id": "52a4195709f8"
-    },
-    {
-      "title": "WE ARE ONE PRESENTS: HOUSE CALLS",
-      "description": "Get ready to vibe together & feel the rhythm to groovy, deep, & high energy music at this one of a kind Coachella Recovery Party.",
-      "venue": "Paname SF",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/we-are-one-presents-house-calls-tickets-1988283100276",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183078960%2F193001879806%2F1%2Foriginal.20260426-203348?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.509&fp-y=0.314&s=87165f92bac5da6dbcc5f7a260febc77",
-      "id": "c70832e64376"
-    },
-    {
-      "title": "CGB | FOG CITY GROOVE | SINISTER DEXTER",
-      "description": "Get ready to vibe with CGB, Fog City Groove, Sinister Dexter LIVE!",
-      "venue": "OREILLYS PUB",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/cgb-fog-city-groove-sinister-dexter-tickets-1988417582516",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183243991%2F78654724783%2F1%2Foriginal.20260428-164859?w=200&auto=format%2Ccompress&q=75&sharp=10&s=f766d5b198c57769b67730111a28d712",
-      "id": "326a79156018"
-    },
-    {
-      "title": "BIA  at THE BUDDA NIGHTCLUB!",
-      "description": "Experience an unforgettable night with BIA live at The Budda Nightclub, bringing bold vibes, high energy, and pure intensity",
-      "venue": "333 11th St",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/bia-at-the-budda-nightclub-tickets-1987454920167",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183175259%2F2987401841758%2F1%2Foriginal.20260427-230859?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=53c50590b4796561ba15437cd44006bd",
-      "id": "74d4176fc517"
     },
     {
       "title": "On the Couch Beats and Battle Showcase",
@@ -219,6 +154,32 @@
       "id": "7061c5b1f39d"
     },
     {
+      "title": "Kungs at Audio",
+      "description": "Get ready to dance all night with Kungs spinning the freshest beats live!",
+      "venue": "Audio Nightclub",
+      "neighborhood": "San Francisco",
+      "category": "music",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/kungs-at-audio-tickets-1988748609627",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183684728%2F2717105700211%2F1%2Foriginal.20260504-075331?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0cc35bc955a3ab9b170329e5d45efc45",
+      "id": "60fac491c6df"
+    },
+    {
+      "title": "Texture Summit presents Luca Lozano & Mr. Ho + more TBA",
+      "description": "Texture Summit presents Luca Lozano & Mr. Ho + more TBA",
+      "venue": "Public Works",
+      "neighborhood": "Mission",
+      "category": "culture",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/texture-summit-presents-luca-lozano-mr-ho-more-tba-tickets-1986559824913",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181320910%2F564127626281%2F1%2Foriginal.20260402-191559?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7454b1f052316e5af26731f775d05769",
+      "id": "7de426477b6f"
+    },
+    {
       "title": "Hella Cheese",
       "description": "HELLA CHEESE @ Madrone Art Bar",
       "venue": "Madrone Art Bar",
@@ -232,43 +193,30 @@
       "id": "3f5dd46de829"
     },
     {
-      "title": "Kungs at Audio",
-      "description": "Get ready to dance all night with Kungs spinning the freshest beats live!",
-      "venue": "Audio Nightclub",
+      "title": "Hawthorn feat. Nate Rioz + Roughneck, Djcasiboy, Xtheartist, Dj ant 1won",
+      "description": "Table Reservations: Call/Text 415-969-0196",
+      "venue": "Hawthorn",
       "neighborhood": "San Francisco",
-      "category": "music",
+      "category": "art",
       "start_time": "2026-05-08",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/kungs-at-audio-tickets-1988748609627",
+      "url": "https://www.eventbrite.com/e/hawthorn-feat-nate-rioz-roughneck-djcasiboy-xtheartist-dj-ant-1won-tickets-1987975084994",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183684728%2F2717105700211%2F1%2Foriginal.20260504-075331?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b9ff364fa527c57d15c7cb977e2ad24f",
-      "id": "60fac491c6df"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183258864%2F106679522699%2F1%2Foriginal.20260428-185728?crop=focalpoint&fit=crop&w=333&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=286b4a957cd780528f828d6bf9bdef11",
+      "id": "aefafcdd3455"
     },
     {
-      "title": "Warped presents R&B Night",
-      "description": "Warped is a new alternative dance party; a night of music, dancing, and drag with the bay area's best djs and drag performers!",
-      "venue": "El Rio",
+      "title": "Tech House Night w/ ESKUCHE [ NYC | RELIEF RECORDS ] ►2 FOR 1 DRINKS 9-11PM",
+      "description": "Green Velvet's Relief Records artist, ESKUCHE (NYC) at MadaRae San Francisco ► Free Guest List and 2 FOR 1 DRINKS 9-11PM",
+      "venue": "Madarae",
       "neighborhood": "San Francisco",
-      "category": "nightlife",
+      "category": "art",
       "start_time": "2026-05-08",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/warped-presents-rb-night-tickets-1986143609000",
+      "url": "https://www.eventbrite.com/e/tech-house-night-w-eskuche-nyc-relief-records-2-for-1-drinks-9-11pm-tickets-1986944013030",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182377995%2F267963256871%2F1%2Foriginal.20260417-022845?w=355&auto=format%2Ccompress&q=75&sharp=10&s=ddd3e52ee308ed929ea5d084f5bfb02b",
-      "id": "ba0c422f78e4"
-    },
-    {
-      "title": "Texture Summit presents Luca Lozano & Mr. Ho + more TBA",
-      "description": "Texture Summit presents Luca Lozano & Mr. Ho + more TBA",
-      "venue": "Public Works",
-      "neighborhood": "Mission",
-      "category": "culture",
-      "start_time": "2026-05-08",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/texture-summit-presents-luca-lozano-mr-ho-more-tba-tickets-1986559824913",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181320910%2F564127626281%2F1%2Foriginal.20260402-191559?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6f681118b815343a438646880ba1279d",
-      "id": "7de426477b6f"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181639919%2F1383893111393%2F1%2Foriginal.20260407-213529?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=63fcbc9ca881b43bee8def1ddb1fe214",
+      "id": "476ac66a6f27"
     },
     {
       "title": "Interactive Italian Pasta Making - Team Building in the Bay Area | Cozymeal™",
@@ -306,7 +254,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/neon-paint-sip-experience-tickets-1985211199137",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989983783%2F308819252815%2F1%2Foriginal.20250322-050549?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533603816837&fp-y=0.375670436755&s=c33bd526590bba5e5dfb1ad03e347bdd",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989983783%2F308819252815%2F1%2Foriginal.20250322-050549?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.533603816837&fp-y=0.375670436755&s=f4b3da9c2f397e94710c248fb3efda22",
       "id": "46e7a96f87cc"
     },
     {
@@ -319,7 +267,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/collections-tour-intro-to-the-archive-tickets-1977651723542",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1058980773%2F167752770648%2F1%2Foriginal.20250623-213153?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=5e-07&fp-y=5e-07&s=3589adfd9247d02cbf80725c13d3faa3",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1058980773%2F167752770648%2F1%2Foriginal.20250623-213153?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=5e-07&fp-y=5e-07&s=299b64b345e22d41ec887649018c579a",
       "id": "367f1f9b6d97"
     },
     {
@@ -332,7 +280,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/cheaper-than-therapy-stand-up-comedy-fri-may-8-945pm-tickets-1982180310668",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1090343243%2F116914461243%2F1%2Foriginal.20250807-105811?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d8d74499cb3de7028e946acc0859a641",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1090343243%2F116914461243%2F1%2Foriginal.20250807-105811?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6abb0cd6f7ed87952106126fbe3fe9fc",
       "id": "a78c68a61487"
     },
     {
@@ -345,34 +293,60 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/video-craft-museum-of-craft-design-daily-exhibition-admission-tickets-1980399999710",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176693035%2F176494610152%2F1%2Foriginal.20260204-174550?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cd3b9ca0538a159265845047c52cde19",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176693035%2F176494610152%2F1%2Foriginal.20260204-174550?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d49479cc275c45d887badaae9c83308b",
       "id": "531ad3b5442f"
     },
     {
-      "title": "HellaSecret 2026 Speakeasy Comedy Night",
-      "description": "Secret pop-up comedy shows at SF's new speakeasy comedy club",
+      "title": "San Francisco POC Comedy Night",
+      "description": "Diversity takes center stage at HellaFunny's brand new \"People of Color\" Comedy Night in San Francisco",
       "venue": "The Function SF: Comedy Club & Cocktail Lounge",
       "neighborhood": "San Francisco",
       "category": "comedy",
       "start_time": "2026-05-08",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/hellasecret-2026-speakeasy-comedy-night-tickets-1979178006696",
+      "url": "https://www.eventbrite.com/e/san-francisco-poc-comedy-night-tickets-1979178877300",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F416811439%2F893605758%2F1%2Foriginal.20230103-000258?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=13983ad3a721a4a5bb2aaac41faa60d2",
-      "id": "c00b1af2f5a2"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F741579479%2F893605758%2F1%2Foriginal.20240411-195406?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=86d9d8c1166146ef37bd90167d77c0f0",
+      "id": "bbfb59529610"
     },
     {
-      "title": "Candle Making Workshop in San Francisco",
-      "description": "Create your own custom-scented candles in a fun, hands-on workshop.Relaxing, beginner-friendly and made for cozy moments.",
+      "title": "Our Magic",
+      "description": "Join Andrew Evans, the creator of The Magic Patio, for an inexplicable evening of magic and mentalism.",
+      "venue": "The Magic Patio",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/our-magic-tickets-1984833136341",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F935741113%2F189425095359%2F1%2Foriginal.20250114-204114?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8900175e0076652a44c1ce1d048789f1",
+      "id": "d918d59c8d11"
+    },
+    {
+      "title": "Turkish Mosaic Lamp Workshop at San Francisco",
+      "description": "Unlock a world of color and light at our! Turkish Mosaic Lamp Workshop! Design your own mosaic lamp using a palette of 16 glass colors!",
       "venue": "360 Ritch St suite 205",
       "neighborhood": "San Francisco",
       "category": "lectures",
       "start_time": "2026-05-08",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/candle-making-workshop-in-san-francisco-tickets-1985659566215",
+      "url": "https://www.eventbrite.com/e/turkish-mosaic-lamp-workshop-at-san-francisco-tickets-1985658293408",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180401480%2F472461604541%2F1%2Foriginal.20260322-065740?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=edb9bc8568c70c7261d7a25bfe6f939b",
-      "id": "2591fda7e599"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180401387%2F472461604541%2F1%2Foriginal.20260322-064851?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=62127c59faeea8446713947b1f8bf162",
+      "id": "2ac3202f0c84"
+    },
+    {
+      "title": "Afro-Brazilian Drumming Workshop",
+      "description": "Feel the rhythm and move with the community in this Afro-Brazilian drumming workshop series led by Alfie",
+      "venue": "400 Geneva Ave",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-05-08",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/afro-brazilian-drumming-workshop-tickets-1980747202202",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175088877%2F78428810375%2F1%2Foriginal.20260116-204337?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6e4bf8a4815b99f28c7ba6cd26c7f689",
+      "id": "3b16948f8dc8"
     },
     {
       "title": "Good Fridays @ Skylark 05/08/26",
@@ -406,12 +380,12 @@
       "venue": "The Masonic",
       "neighborhood": "Nob Hill",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.748394-07:00",
+      "start_time": "2026-05-08T11:32:12.432464-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/avtt-pttn-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "1fdf12326205"
+      "id": "4ca6435e392f"
     },
     {
       "title": "Hamnet",
@@ -419,12 +393,12 @@
       "venue": "Toni Rembe Theater",
       "neighborhood": "San Francisco",
       "category": "theater",
-      "start_time": "2026-05-08T07:50:10.749942-07:00",
+      "start_time": "2026-05-08T11:32:12.433259-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/4/22/hamnet-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "4b0f6c347474"
+      "id": "ce0aaa11ce77"
     },
     {
       "title": "Pennywise",
@@ -432,12 +406,12 @@
       "venue": "The Fillmore",
       "neighborhood": "Western Addition",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.751722-07:00",
+      "start_time": "2026-05-08T11:32:12.434132-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/live-105-welcomes-pennywise-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "bde2fa1ad0f4"
+      "id": "0541ac468ddc"
     },
     {
       "title": "Alex G",
@@ -445,12 +419,12 @@
       "venue": "San Jose Civic",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.753208-07:00",
+      "start_time": "2026-05-08T11:32:12.434778-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/alex-g-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "5ff48fd5e905"
+      "id": "7bdb6afe0300"
     },
     {
       "title": "Emma Willmann",
@@ -458,12 +432,12 @@
       "venue": "Punch Line San Francisco",
       "neighborhood": "Financial District",
       "category": "comedy",
-      "start_time": "2026-05-08T07:50:10.754715-07:00",
+      "start_time": "2026-05-08T11:32:12.435520-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/emma-willmann-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "b68f2583c8a6"
+      "id": "793ac6165330"
     },
     {
       "title": "Secret Comedy Show",
@@ -471,12 +445,12 @@
       "venue": "Mr. Mahjong's",
       "neighborhood": "San Francisco",
       "category": "comedy",
-      "start_time": "2026-05-08T07:50:10.756046-07:00",
+      "start_time": "2026-05-08T11:32:12.436176-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/weekly/fri/sf-secret-speakeasy-comedy-show-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "e16c6199647e"
+      "id": "959ee02cd2cd"
     },
     {
       "title": "Luca Lozano & Mr. Ho + more",
@@ -484,12 +458,12 @@
       "venue": "Public Works",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.757846-07:00",
+      "start_time": "2026-05-08T11:32:12.436914-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/luca-lozano-mr-ho-more-tba-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "ada5f77345ed"
+      "id": "6387b54ea5a8"
     },
     {
       "title": "Concrete Boys",
@@ -497,12 +471,12 @@
       "venue": "The Independent",
       "neighborhood": "Western Addition",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.759528-07:00",
+      "start_time": "2026-05-08T11:32:12.437738-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/concrete-boys-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "8094dc6dc232"
+      "id": "9be33f11e8a3"
     },
     {
       "title": "Kettama",
@@ -510,12 +484,12 @@
       "venue": "The Regency Ballroom",
       "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.761242-07:00",
+      "start_time": "2026-05-08T11:32:12.438557-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kettama-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "01df8686bce2"
+      "id": "add1c0a458b3"
     },
     {
       "title": "Jordan Jensen",
@@ -523,12 +497,12 @@
       "venue": "Cobb's Comedy Club",
       "neighborhood": "North Beach",
       "category": "comedy",
-      "start_time": "2026-05-08T07:50:10.762862-07:00",
+      "start_time": "2026-05-08T11:32:12.439281-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/jordan-jensen-bus-ted-up-tour-tickets-9elqd7l",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d9936218d26b"
+      "id": "003cb8c57963"
     },
     {
       "title": "Princess Forever w/ Darlene Mitchell",
@@ -536,12 +510,12 @@
       "venue": "August Hall",
       "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.766132-07:00",
+      "start_time": "2026-05-08T11:32:12.440823-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/princess-forever-darlene-mitchell-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "94c9606d776a"
+      "id": "b67c7fae38a7"
     },
     {
       "title": "Shiba San",
@@ -549,12 +523,12 @@
       "venue": "1015 Folsom",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.769512-07:00",
+      "start_time": "2026-05-08T11:32:12.442358-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/shiba-san-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "5a84c33221ff"
+      "id": "0e16641e2b1e"
     },
     {
       "title": "The 29th San Francisco Silent Film Festival",
@@ -562,12 +536,12 @@
       "venue": "The Castro",
       "neighborhood": "Castro",
       "category": "film",
-      "start_time": "2026-05-08T07:50:10.771345-07:00",
+      "start_time": "2026-05-08T11:32:12.443239-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/6/the-29th-san-francisco-silent-film-festival-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "7bf7aea7f405"
+      "id": "b05bd8160a33"
     },
     {
       "title": "Kehani - 2nd Show Added!",
@@ -575,12 +549,12 @@
       "venue": "Graton Resort & Casino",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.772675-07:00",
+      "start_time": "2026-05-08T11:32:12.443886-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kehani-2nd-show-added-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "016ddf249d08"
+      "id": "10d00a77e2c0"
     },
     {
       "title": "Kehlani",
@@ -588,12 +562,12 @@
       "venue": "Graton Resort & Casino",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.774118-07:00",
+      "start_time": "2026-05-08T11:32:12.444547-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/kehlani-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "426be66ea827"
+      "id": "8a336d653862"
     },
     {
       "title": "The Academy Is...",
@@ -601,12 +575,12 @@
       "venue": "The UC Theatre",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.775616-07:00",
+      "start_time": "2026-05-08T11:32:12.445263-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/the-academy-is-almost-here-20th-anniversary-tour-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "5718f0e14c51"
+      "id": "20e245baf36c"
     },
     {
       "title": "Dirtybird Social Club",
@@ -614,12 +588,12 @@
       "venue": "San Francisco",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-05-08T07:50:10.776870-07:00",
+      "start_time": "2026-05-08T11:32:12.445844-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/2/dirtybird-social-club-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "4fb897aa5c56"
+      "id": "3e1aaf47bcf4"
     },
     {
       "title": "Hiromi's SONICWONDER",
@@ -627,12 +601,12 @@
       "venue": "SFJAZZ Center",
       "neighborhood": "Hayes Valley",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.778639-07:00",
+      "start_time": "2026-05-08T11:32:12.446625-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/hiromi-s-sonicwonder-tickets-klqeom8",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "21c12a793f57"
+      "id": "c0fbf86fb7c5"
     },
     {
       "title": "Dancing With Friends",
@@ -640,12 +614,12 @@
       "venue": "Public Works",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.780165-07:00",
+      "start_time": "2026-05-08T11:32:12.447321-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/dancing-with-friends-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "bd7b959e484b"
+      "id": "46b84a51bb2d"
     },
     {
       "title": "Jim Messina",
@@ -653,12 +627,12 @@
       "venue": "The Freight",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.781781-07:00",
+      "start_time": "2026-05-08T11:32:12.448013-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/jim-messina-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "c29ae62927ba"
+      "id": "4784497b35a6"
     },
     {
       "title": "Joeski, Jamie Swing, John Andrew, LDP Crew",
@@ -666,12 +640,12 @@
       "venue": "Monarch",
       "neighborhood": "SoMa",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.783257-07:00",
+      "start_time": "2026-05-08T11:32:12.448696-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/joeski-jamie-swing-john-andrew-ldp-crew-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "eb7b299cc5b3"
+      "id": "4f6ffc8c0188"
     },
     {
       "title": "trauma ray, Glixen",
@@ -679,25 +653,12 @@
       "venue": "The Chapel",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-05-08T07:50:10.784827-07:00",
+      "start_time": "2026-05-08T11:32:12.450156-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/5/8/trauma-ray-glixen-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "5a5ead5d53c2"
-    },
-    {
-      "title": "We’ve Got Sole: Hip Hop, Hoops and the Rise of Sneaker Culture",
-      "description": "",
-      "venue": "SF Public Library Main Branch",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-08T07:50:10.786693-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/1/16/weve-got-sole-hip-hop-hoops-and-the-rise-of-sneaker-culture-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "1d51335e4079"
+      "id": "9f4fca955e6d"
     },
     {
       "title": "Museum of The Human Web",
@@ -707,23 +668,10 @@
       "category": "art",
       "start_time": "2026-05-08T16:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-BIrGBiaMpNpbenj",
+      "url": "https://luma.com/h85fumdt",
       "source": "Luma",
       "image_url": "",
       "id": "b86b861179d4"
-    },
-    {
-      "title": "SF’s “Chinatown Night Market” Returns for 2026 - FREE",
-      "description": "The post SF’s “Chinatown Night Market” Returns for 2026 appeared first on Funcheap .",
-      "venue": "",
-      "neighborhood": "Chinatown",
-      "category": "culture",
-      "start_time": "2026-05-08T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/sfs-chinatown-night-market-returns-for-2026/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "e9a09a9aa662"
     },
     {
       "title": "Ferry Flicks at Fort Point Beer Garden",
@@ -746,23 +694,10 @@
       "category": "culture",
       "start_time": "2026-05-08T19:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-JIUnzPGre3SCnSV",
+      "url": "https://luma.com/06p593fa",
       "source": "Luma",
       "image_url": "",
       "id": "1871320befe1"
-    },
-    {
-      "title": "Roaming The Folds of Eureka Valley",
-      "description": "In the lee of Twin Peaks, Eureka Valley is a historic neighbourhood. Having lived nearby for a long time, I have always been fascinated by how the street grid gives way to twisting streets, stairways and unexpected open spaces. This Friday roam will be packed with climbs, which we will take at a ste",
-      "venue": "Gilbert Baker Memorial Rainbow Flag",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-08T22:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/roaming-zen/events/314237161/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-2-square.webp",
-      "id": "2576c47d99ec"
     },
     {
       "title": "Historic Vineyard Society in the City",
@@ -826,7 +761,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/les-play-house-festival-tickets-sold-on-tixr-tickets-1980060033863",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180694884%2F199237634662%2F1%2Foriginal.20260325-195104?crop=focalpoint&fit=crop&w=391&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9b2eb8bef6971862ea9e0a0febcb0e6a",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180694884%2F199237634662%2F1%2Foriginal.20260325-195104?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=70890896947a361657b8b74e4be36b18",
       "id": "a9b796d6295d"
     },
     {
@@ -893,19 +828,6 @@
       "source": "Eventbrite",
       "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182695561%2F2678406367971%2F1%2Foriginal.20260421-170649?crop=focalpoint&fit=crop&w=300&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.729&fp-y=0.512&s=67cbf5dafbd999f3821b93fbdfde0843",
       "id": "2a3583e87747"
-    },
-    {
-      "title": "Self-Care City Scavenger Hunt: Based on Hot Habits Series - Daly City Area",
-      "description": "Self-Care City Scavenger Hunt – Based on Hot Habits Book Series. A fun hunt in your city to help you explore the sites and build wellness!",
-      "venue": "*Recommended scavenger starting point or other city spot of your choice! (YOU MUST USE PDF TICKETS EMAILED FOR EVENT- NO MOBILE APP OR QR CODES ACCEPTED)",
-      "neighborhood": "San Francisco",
-      "category": "lectures",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/self-care-city-scavenger-hunt-based-on-hot-habits-series-daly-city-area-tickets-1055439250209",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F844472279%2F1395832153743%2F1%2Foriginal.20240907-195113?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=da13dd3daaccfa6bfa7611f197ac10a8",
-      "id": "8a3989a427ee"
     },
     {
       "title": "BATS Improv presents: Much Ado About Everything 5/2/26, 5/9/26 & 5/16/26",
@@ -1051,82 +973,30 @@
       "id": "93078a5d9f7e"
     },
     {
-      "title": "Cozy - Day Party - R&B HipHop - San Francisco  - The Endup  (21+)",
-      "description": "Your favorite R&B party is back with the season opener!",
-      "venue": "The EndUp",
+      "title": "Straighten It Out",
+      "description": "Straighten It Out @ Madrone Art Bar",
+      "venue": "Madrone Art Bar",
       "neighborhood": "San Francisco",
-      "category": "music",
+      "category": "art",
       "start_time": "2026-05-09",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/cozy-day-party-rb-hiphop-san-francisco-the-endup-21-tickets-1987287333912",
+      "url": "https://www.eventbrite.com/e/straighten-it-out-tickets-1987355256069",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182087610%2F2074081586573%2F1%2Foriginal.20260413-225634?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.085&fp-y=0.485&s=0e53ca9eb5444ef780ab9e98edc2c734",
-      "id": "047e207d75f5"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182076105%2F2991694243706%2F1%2Foriginal.20260413-204215?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.437&fp-y=0.613&s=6f899e0f3d6ec972b0d621c9502e459d",
+      "id": "625af9120d76"
     },
     {
-      "title": "Fado at The Pines X",
-      "description": "Join us for an unforgettable evening of traditional Madeira string instruments and culture, featuring Robert Moniz at The Pines in Sausalito",
-      "venue": "33 Miller Ave",
+      "title": "Seisiún Saturday",
+      "description": "All are welcome for our trad seisiún in The Sunset as we gather in the Emerald Pub.",
+      "venue": "United Irish Cultural Center",
       "neighborhood": "San Francisco",
-      "category": "culture",
+      "category": "outdoor",
       "start_time": "2026-05-09",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/fado-at-the-pines-x-tickets-1986542109927",
+      "url": "https://www.eventbrite.com/e/seisiun-saturday-tickets-1988880183167",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181304025%2F15745593987%2F1%2Foriginal.20260402-161529?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.593&fp-y=0.355&s=c1a90bf15791cca1f0bd65d37bc66b73",
-      "id": "7f1719b267b1"
-    },
-    {
-      "title": "FESTA NO BRASIL \"BAILE DAS RAINHAS\" TWO DANCE FLOORS | SAN FRANCISCO",
-      "description": "BRAZILIAN LATIN SATURDAY NIGHT IN A TWO DANCE FLOOR EVENT : BRAZILIAN FUNK ROOM + REGGAETON ROOM, AND BRAZILIAN FOOD STAND AT THE ENDUP SF",
-      "venue": "The EndUp",
-      "neighborhood": "San Francisco",
-      "category": "food",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/festa-no-brasil-baile-das-rainhas-two-dance-floors-san-francisco-tickets-1988058196583",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182847345%2F393783973529%2F1%2Foriginal.20260423-050415?w=400&auto=format%2Ccompress&q=75&sharp=10&s=9710fd0f4be2ab7805dbeca3de3bfc85",
-      "id": "3f2f26398c20"
-    },
-    {
-      "title": "THE GRXXN PARTY | FEID VS FERXXO EXPERIENCE @ PANAME | SAN FRANCISCO",
-      "description": "Concert After Party",
-      "venue": "Paname SF",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/the-grxxn-party-feid-vs-ferxxo-experience-paname-san-francisco-tickets-1987858749030",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182745615%2F316539233027%2F1%2Foriginal.20260422-035634?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1f2657ff37d58be03aafbebdf98b7326",
-      "id": "ad385bd54cb5"
-    },
-    {
-      "title": "Introduction to Kulintang: A Living Tradition",
-      "description": "A beginner-friendly introduction to kulintang through shared rhythm, listening, and community practice",
-      "venue": "International Hotel Manilatown Center",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/introduction-to-kulintang-a-living-tradition-tickets-1987408051983",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182147240%2F265291689899%2F1%2Foriginal.20260414-161823?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6926450e72e6759547bf329c1ede3b85",
-      "id": "876199b66902"
-    },
-    {
-      "title": "Roam x Sirens: Fabrizio Mammarella",
-      "description": "Roam x Sirens: Fabrizio Mammarella",
-      "venue": "Public Works",
-      "neighborhood": "Mission",
-      "category": "culture",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/roam-x-sirens-fabrizio-mammarella-tickets-1986850160314",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181540120%2F674591041103%2F1%2Foriginal.20260406-205301?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.292&fp-y=0.504&s=058d95fa5a89310c42af7c03605fcc1d",
-      "id": "8847c4c8780e"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F837536719%2F754426051453%2F1%2Foriginal.20240829-215918?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=891e890e927f833eeb09fce2f29eae46",
+      "id": "7de7144110e8"
     },
     {
       "title": "AMITY ST | FANCY MONKEYS | DOPAMINE DRIVE",
@@ -1140,6 +1010,84 @@
       "source": "Eventbrite",
       "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183245695%2F78654724783%2F1%2Foriginal.20260428-170432?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.538&fp-y=0.297&s=551bc4ce3b92a8d025a92d80995ebf48",
       "id": "e7968b48d03e"
+    },
+    {
+      "title": "Ragazzi Continuo Spring Concert: \"Lifetime\" May 9, 2026, San Francisco",
+      "description": "Ragazzi Continuo concludes their 16th season with a meditation on the themes of lifetime.",
+      "venue": "Trinity+St. Peter's Episcopal Church",
+      "neighborhood": "San Francisco",
+      "category": "music",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/ragazzi-continuo-spring-concert-lifetime-may-9-2026-san-francisco-tickets-1985215278338",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179915714%2F2966310537921%2F1%2Foriginal.20260316-073157?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3b4f03cda7ce1e72fbe8dc0a3f7673c6",
+      "id": "b3c563e1093b"
+    },
+    {
+      "title": "Roam x Sirens: Fabrizio Mammarella",
+      "description": "Roam x Sirens: Fabrizio Mammarella",
+      "venue": "Public Works",
+      "neighborhood": "Mission",
+      "category": "culture",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/roam-x-sirens-fabrizio-mammarella-tickets-1986850160314",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181540120%2F674591041103%2F1%2Foriginal.20260406-205301?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.292&fp-y=0.504&s=ffb7708dde87381c2543e3cd71216cef",
+      "id": "8847c4c8780e"
+    },
+    {
+      "title": "Anniversary Dinner  Dance Party w/ Halsey & The Hi-Hats",
+      "description": "Celebrating 110 years of the Verdi Club with the incomparable Halsey & The Hi-Hats",
+      "venue": "Verdi Club",
+      "neighborhood": "San Francisco",
+      "category": "art",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/anniversary-dinner-dance-party-w-halsey-the-hi-hats-tickets-1985936151489",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180680241%2F173628490780%2F1%2Foriginal.20260325-172334?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=ade6184e878e24ba387783a3803aba2d",
+      "id": "51930013ede4"
+    },
+    {
+      "title": "Mellow Sessions @Haight",
+      "description": "A unique and intimate concert series featuring secret artists every date, always a surprise! A sonic experience and treat your senses.",
+      "venue": "The Mellow Haight",
+      "neighborhood": "Haight-Ashbury",
+      "category": "music",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/mellow-sessions-haight-tickets-1989055757314",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F402580319%2F209717592418%2F1%2Foriginal.20221130-194029?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=bbeb8a6954c5028ba714569898589628",
+      "id": "a080f930e000"
+    },
+    {
+      "title": "Rebekah presented by Public Works and Dirty Not Sorry",
+      "description": "Rebekah presented by Public Works and Dirty Not Sorry",
+      "venue": "Public Works",
+      "neighborhood": "Mission",
+      "category": "culture",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/rebekah-presented-by-public-works-and-dirty-not-sorry-tickets-1986015116676",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183870071%2F3001068235516%2F1%2Foriginal.20260505-235530?w=401&auto=format%2Ccompress&q=75&sharp=10&s=45151d8da82debb892ea7b68466c75f7",
+      "id": "dc22cb6b8d93"
+    },
+    {
+      "title": "Afro House w/ SAMSON [FRANCE] & TOMMY KIMPTON [CANADA] ►2 FOR 1 DRINKS 9-11",
+      "description": "Afro House w/ SAMSON + TOMMY KIMPTON (Double Headliners) at Madarae San Francisco ►2 FOR 1 DRINKS 9-11PM",
+      "venue": "Madarae",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/afro-house-w-samson-france-tommy-kimpton-canada-2-for-1-drinks-9-11-tickets-1988376535744",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F570729239%2F155763085261%2F1%2Foriginal.20230808-050012?w=300&auto=format%2Ccompress&q=75&sharp=10&s=36a12c502a3ea7fc5bd09f18882b6ca4",
+      "id": "21000fc35cef"
     },
     {
       "title": "In-person class: Handmade Pasta 101 (SF)",
@@ -1181,6 +1129,19 @@
       "id": "c7d76e04ec51"
     },
     {
+      "title": "Mom’s Day Bud Vase Design & Floral Arrangement",
+      "description": "Join us in person to craft cute bud vases and fresh floral arrangements for Mom’s special day!",
+      "venue": "African American Art & Culture Complex",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/moms-day-bud-vase-design-floral-arrangement-tickets-1988494823546",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183350961%2F270000217478%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=18b06d15acf38c84bdfb5c53ec2cd9f0",
+      "id": "5db57bb8a8e1"
+    },
+    {
       "title": "Japantown Culinary Delights - Food Tour in the Bay Area | Cozymeal™",
       "description": "",
       "venue": "Location provided after booking",
@@ -1194,19 +1155,6 @@
       "id": "f7fe4aa7d887"
     },
     {
-      "title": "Mom’s Day Bud Vase Design & Floral Arrangement",
-      "description": "Join us in person to craft cute bud vases and fresh floral arrangements for Mom’s special day!",
-      "venue": "African American Art & Culture Complex",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/moms-day-bud-vase-design-floral-arrangement-tickets-1988494823546",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183350961%2F270000217478%2F1%2Foriginal.png?h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=5c929a653a6b2c014d2419ac717f3075",
-      "id": "5db57bb8a8e1"
-    },
-    {
       "title": "Fresh & Floral: Spring Cocktail Class",
       "description": "Learn to make 3 spring cocktails (plus NA options) with award-winning bartender Shirley Brooks. Snacks included!",
       "venue": "Madrone Art Bar",
@@ -1216,7 +1164,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/fresh-floral-spring-cocktail-class-tickets-1986835494448",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181521237%2F2991694243706%2F1%2Foriginal.20260406-173657?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.492&s=a9284eb8839e6f382cb54b7c04dce3bf",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181521237%2F2991694243706%2F1%2Foriginal.20260406-173657?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.504&fp-y=0.492&s=aeee5d1d7b6bfb082f914d9e5bfd468a",
       "id": "f10ae65e9d24"
     },
     {
@@ -1229,21 +1177,8 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/a-taste-of-jewish-sf-registration-1986940744253",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181914259%2F2986514250811%2F1%2Foriginal.20260410-235716?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=91cf52b3eadd9d1d054eeeb92de1d0f9",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181914259%2F2986514250811%2F1%2Foriginal.20260410-235716?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7a01e13d1a375b7addec3cad9080bdd1",
       "id": "29333d62fe2f"
-    },
-    {
-      "title": "Spanish Paella Cooking Class",
-      "description": "Enjoy paella and tapas in this hands-on cooking class featuring the flavors of Spain",
-      "venue": "Hands On Gourmet",
-      "neighborhood": "San Francisco",
-      "category": "food",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/spanish-paella-cooking-class-tickets-1988516885534",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183376851%2F2201474639073%2F1%2Foriginal.20260429-210857?h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&s=c954d272e23c56d3d04cec6178c348b9",
-      "id": "2ab36e6265ad"
     },
     {
       "title": "**MEN SOLD OUT**⚡ SpeedCalifornia | Ages 24–38 | San Francisco Speed Dating",
@@ -1272,17 +1207,17 @@
       "id": "3488a0c0244a"
     },
     {
-      "title": "Radical Resonance a Butoh Workshop with Julie Becton Gillum",
-      "description": "This Butoh workshop will explore movement and stillness by investigating the unconscious body, sensations, forces and states.",
-      "venue": "Studio Valencia ",
+      "title": "Discover North Berkeley - Food Tour in the Bay Area | Cozymeal™",
+      "description": "",
+      "venue": "Location provided after booking",
       "neighborhood": "San Francisco",
-      "category": "lectures",
+      "category": "food",
       "start_time": "2026-05-09",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/radical-resonance-a-butoh-workshop-with-julie-becton-gillum-tickets-1984442695522",
+      "url": "https://www.eventbrite.com/e/discover-north-berkeley-food-tour-in-the-bay-area-cozymealtm-tickets-1983163966810",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178975927%2F1742697081%2F1%2Foriginal.20260304-032039?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c63417dbcd31e1d09eec38a666bcdbfa",
-      "id": "8fd1c3e975a1"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F786513499%2F931232795353%2F1%2Foriginal.20240610-145204?w=400&auto=format%2Ccompress&q=75&sharp=10&s=71f58d825b800fc643469f57c8605b2f",
+      "id": "1e76b75c8300"
     },
     {
       "title": "Fosse-Inspired Dance Class (Int/Adv) - Detour Productions Company Repertory",
@@ -1294,7 +1229,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/fosse-inspired-dance-class-intadv-detour-productions-company-repertory-tickets-1977692439324",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183177909%2F92110091621%2F1%2Foriginal.20260428-000017?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.583&fp-y=0.294&s=fe54d9fa296fed4872bd692a7bcb5d7d",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183177909%2F92110091621%2F1%2Foriginal.20260428-000017?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.583&fp-y=0.294&s=d3708bcbe5bdbda885b9a70fd34871a9",
       "id": "cffed6c7be46"
     },
     {
@@ -1307,7 +1242,7 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/ultimate-reveal-nudie-nubies-sf-at-the-stud-tickets-1977153681886",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176080223%2F282687966342%2F1%2Foriginal.20260128-180930?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.784&s=251ad995fc6c764916580e6ab5003742",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176080223%2F282687966342%2F1%2Foriginal.20260128-180930?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.784&s=79268f5401d932b8a5397043a1069c4b",
       "id": "8cd3d2cb60bf"
     },
     {
@@ -1324,6 +1259,19 @@
       "id": "ca571ff006be"
     },
     {
+      "title": "Drag Queen Sip and Paint San Francisco The Drag Queen Paint experience",
+      "description": "Drag Queen Sip N Paint by Sip and Paint USA Welcome to Drag Queen Sip N Paint, a fabulous experience brought to you by Sip and Paint USA",
+      "venue": "2470 San Bruno Ave",
+      "neighborhood": "San Francisco",
+      "category": "nightlife",
+      "start_time": "2026-05-09",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/drag-queen-sip-and-paint-san-francisco-the-drag-queen-paint-experience-tickets-1049707823357",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F852606719%2F1392133986523%2F1%2Foriginal.20240917-183353?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eda6ebaa46ef0c2313abb779b00f7ae3",
+      "id": "ed71fa4ba1a1"
+    },
+    {
       "title": "Illusions The Drag Brunch San Francisco-Drag Queen Brunch-San Francisco, CA",
       "description": "'PLEASE NOTE: WHEN SELECTING YOUR TICKET TYPE THAT BRUNCH IS NOT INCLUDED AND MUST BE PURCHASED AS AN ADD-ON TICKET PER PERSON.",
       "venue": "Illusions the Drag Queen Brunch",
@@ -1337,56 +1285,30 @@
       "id": "351f496d2ce7"
     },
     {
-      "title": "Drag Queen Sip and Paint San Francisco The Drag Queen Paint experience",
-      "description": "Drag Queen Sip N Paint by Sip and Paint USA Welcome to Drag Queen Sip N Paint, a fabulous experience brought to you by Sip and Paint USA",
-      "venue": "2470 San Bruno Ave",
-      "neighborhood": "San Francisco",
-      "category": "nightlife",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/drag-queen-sip-and-paint-san-francisco-the-drag-queen-paint-experience-tickets-1049707823357",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F852606719%2F1392133986523%2F1%2Foriginal.20240917-183353?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4e343048b6d05eb332280b90b3799758",
-      "id": "ed71fa4ba1a1"
-    },
-    {
-      "title": "Teatro Tin Tan Presents: Two Lies and a Laugh!",
-      "description": "A high-energy sketch comedy show starring a versatile cast of five actors who shapeshift through a whirlwind of outrageous scenarios.",
-      "venue": "Endgames Improv Theater",
+      "title": "Cosmic Comedy",
+      "description": "the best standup comedy in the galaxy!",
+      "venue": "The Valencia Room",
       "neighborhood": "San Francisco",
       "category": "comedy",
       "start_time": "2026-05-09",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/teatro-tin-tan-presents-two-lies-and-a-laugh-tickets-1988975195351",
+      "url": "https://www.eventbrite.com/e/cosmic-comedy-tickets-1982228622169",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183991729%2F18778688057%2F1%2Foriginal.20260507-062712?w=200&auto=format%2Ccompress&q=75&sharp=10&s=5d7681a7e5d26fc2f574f512d45ea92a",
-      "id": "1d255b90062b"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181923937%2F2794453793151%2F1%2Foriginal.20260411-065238?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.277&fp-y=0.053&s=0af57bbedc400f57bc1bd304d8ff65dc",
+      "id": "5187e3fb6211"
     },
     {
-      "title": "Improv 1: Let's Play! (Sat-050926-SanFrancisco-CA)",
-      "description": "In Leela’s signature level I class, you will experience the transformative nature of group play.",
-      "venue": "450 Geary St suite 200",
+      "title": "Mac & Mike Comedy Show",
+      "description": "Get ready to laugh your socks off with Mac & Mike’s hilarious live comedy antics!",
+      "venue": "Barbary Coast",
       "neighborhood": "San Francisco",
       "category": "comedy",
       "start_time": "2026-05-09",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/improv-1-lets-play-sat-050926-sanfrancisco-ca-registration-1987708388297",
+      "url": "https://www.eventbrite.com/e/mac-mike-comedy-show-tickets-1988221572244",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170583360%2F9798449359%2F1%2Foriginal.20251110-131602?w=400&auto=format%2Ccompress&q=75&sharp=10&s=0eb422c4167fbce1aef1c9ee10784493",
-      "id": "8a9b227402d2"
-    },
-    {
-      "title": "Painting Workshop: How to Develop your own Personal Style - Greg Gandy, MFA",
-      "description": "A dynamic, hands-on painting workshop designed to spark creativity, strengthen compositional instincts, & expand your visual language.",
-      "venue": "WEST PORTAL GALLERY",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-05-09",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/painting-workshop-how-to-develop-your-own-personal-style-greg-gandy-mfa-tickets-1988784102788",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183735242%2F2995586403434%2F1%2Foriginal.20260504-190528?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.489&fp-y=0.49&s=fdc44cf2c69a52da79b4d1b1f4afb394",
-      "id": "c44f7575a059"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183015865%2F386182497077%2F1%2Foriginal.20260425-061906?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.489&fp-y=0.641&s=57c822c88b7c3945df1034c071245f46",
+      "id": "98263d5fdb54"
     },
     {
       "title": "Skylark Saturdays @ Skylark 05/09/26",
@@ -1435,7 +1357,7 @@
       "category": "culture",
       "start_time": "2026-05-09T01:30:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-a9mlSzCOjBa1gI2",
+      "url": "https://luma.com/d25xwqls",
       "source": "Luma",
       "image_url": "",
       "id": "59bb07710503"
@@ -1461,7 +1383,7 @@
       "category": "film",
       "start_time": "2026-05-09T02:30:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-rTyMOGAe6wXudFo",
+      "url": "https://luma.com/1kk3zgpy",
       "source": "Luma",
       "image_url": "",
       "id": "71c8b16e2631"
@@ -1474,7 +1396,7 @@
       "category": "film",
       "start_time": "2026-05-09T03:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-z1ghWxKp5iHpBt1",
+      "url": "https://luma.com/a3tw6br1",
       "source": "Luma",
       "image_url": "",
       "id": "39c66c2b985d"
@@ -1487,7 +1409,7 @@
       "category": "tech",
       "start_time": "2026-05-09T16:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-UagWCv7G18FaXi3",
+      "url": "https://luma.com/0xbcm3kj",
       "source": "Luma",
       "image_url": "",
       "id": "8e2c96eba9d8"
@@ -1500,23 +1422,23 @@
       "category": "culture",
       "start_time": "2026-05-09T17:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-7VkU4mnsFdBGqNq",
+      "url": "https://luma.com/iqc1s9b1",
       "source": "Luma",
       "image_url": "",
       "id": "51a324859736"
     },
     {
-      "title": "Open Source Computer Use Hackathon",
+      "title": "Open Source Computer Use Hackathon | Nvidia, Tzafon, SF Compute, Kernel",
       "description": "",
       "venue": "",
       "neighborhood": "San Francisco",
       "category": "tech",
       "start_time": "2026-05-09T17:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-QPPoKjyq4cxIJ5b",
+      "url": "https://luma.com/cua",
       "source": "Luma",
       "image_url": "",
-      "id": "7a70375a5d83"
+      "id": "ae2ea10c7475"
     },
     {
       "title": "San Francisco, CA - Climate Reality Local Training Event",
@@ -1526,7 +1448,7 @@
       "category": "culture",
       "start_time": "2026-05-09T17:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-cnLxCoGPUA9RYGB",
+      "url": "https://luma.com/13n8nff5",
       "source": "Luma",
       "image_url": "",
       "id": "a110befc7aaf"
@@ -1539,10 +1461,23 @@
       "category": "culture",
       "start_time": "2026-05-09T18:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-t2U97IqkKmQh19Y",
+      "url": "https://luma.com/wca19mh8",
       "source": "Luma",
       "image_url": "",
       "id": "bd22798d7700"
+    },
+    {
+      "title": "San Francisco Mother’s Day Weekend Comedy Festival 2026 (May 8-10) - FREE",
+      "description": "The post San Francisco Mother’s Day Weekend Comedy Festival 2026 (May 8-10) appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-05-09T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/san-francisco-mothers-day-weekend-comedy-festival-2026-may-8-10/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "49e9523f7f3f"
     },
     {
       "title": "Commercial Break Marketplace",
@@ -1617,7 +1552,7 @@
       "category": "outdoor",
       "start_time": "2026-05-09T21:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-TOCUOP2ftyhOgt9",
+      "url": "https://luma.com/yauu16mu",
       "source": "Luma",
       "image_url": "",
       "id": "9149a49e31dc"
@@ -1630,7 +1565,7 @@
       "category": "tech",
       "start_time": "2026-05-09T21:30:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-wjaxpc0m1wGmhxp",
+      "url": "https://luma.com/7i8crpqz",
       "source": "Luma",
       "image_url": "",
       "id": "89965c5d118e"
@@ -1643,7 +1578,7 @@
       "category": "art",
       "start_time": "2026-05-09T22:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-tepAJGyKVVtsdYR",
+      "url": "https://luma.com/ifthenamen",
       "source": "Luma",
       "image_url": "",
       "id": "a18e2b4f4708"
@@ -1656,7 +1591,7 @@
       "category": "culture",
       "start_time": "2026-05-09T23:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-4PhXR9uhJuKvpDE",
+      "url": "https://luma.com/7ornn2o6",
       "source": "Luma",
       "image_url": "",
       "id": "04e065523d85"
@@ -1740,30 +1675,30 @@
       "id": "66f929756e5b"
     },
     {
-      "title": "The After Party 5.10",
-      "description": "The After Party! Live DJ's spinning the latest Latin club mixes. Tap tap tap in!",
-      "venue": "The Valencia Room",
+      "title": "The R&B Brunch with DJ HEARTBREAK at Rise Over Run - SF - Mother's Day",
+      "description": "Kick back with smooth R&B vibes and tasty brunch bites for the perfect chill Sunday hang.",
+      "venue": "Rise Over Run",
       "neighborhood": "San Francisco",
-      "category": "art",
+      "category": "music",
       "start_time": "2026-05-10",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/the-after-party-510-tickets-1988295054030",
+      "url": "https://www.eventbrite.com/e/the-rb-brunch-with-dj-heartbreak-at-rise-over-run-sf-mothers-day-tickets-1988597605971",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182378143%2F319442407985%2F1%2Foriginal.20260417-023310?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.477&fp-y=0.231&s=bc1a588323ccdae98323ed4ab374c0b5",
-      "id": "a8efc9f66dcb"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183483356%2F2506834735111%2F1%2Foriginal.20260501-000612?crop=focalpoint&fit=crop&w=200&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7a439ff35eabba7798426bc35fc90976",
+      "id": "defdf73ce7c2"
     },
     {
-      "title": "SF: Food + History + Art Tour",
-      "description": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco.",
-      "venue": "Elsy's Restaurant",
+      "title": "Foodies + New Friends: San Francisco Dinner Club | Giving Back Edition",
+      "description": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
+      "venue": "Son and Garden",
       "neighborhood": "San Francisco",
-      "category": "art",
+      "category": "food",
       "start_time": "2026-05-10",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566324191",
+      "url": "https://www.eventbrite.com/e/foodies-new-friends-san-francisco-dinner-club-giving-back-edition-tickets-1988513887567",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe86929b53b7e24caa61f88c78f91439",
-      "id": "8d274755d91d"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1056144373%2F2560545315651%2F1%2Foriginal.20250618-215140?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00562378404669&fp-y=0.00222438381804&s=eb9a99713be17df16e3b85fcb7411ff6",
+      "id": "3c658b8056c7"
     },
     {
       "title": "**MEN SOLD OUT**⚡ SpeedCalifornia Dating | Ages 32-44 | San Francisco",
@@ -1779,17 +1714,17 @@
       "id": "5f9ae955e91e"
     },
     {
-      "title": "Foodies + New Friends: San Francisco Dinner Club | Giving Back Edition",
-      "description": "Join us for cozy dinners with locals to share experiences, make new connections, and support local businesses while giving back!",
-      "venue": "Son and Garden",
+      "title": "SF: Food + History + Art Tour",
+      "description": "Join us on the SF: Food + History + Art Tour and TRULY experience the very best of San Francisco.",
+      "venue": "Elsy's Restaurant",
       "neighborhood": "San Francisco",
-      "category": "food",
+      "category": "art",
       "start_time": "2026-05-10",
       "price": "See listing",
-      "url": "https://www.eventbrite.com/e/foodies-new-friends-san-francisco-dinner-club-giving-back-edition-tickets-1988513887567",
+      "url": "https://www.eventbrite.com/e/sf-food-history-art-tour-tickets-1980566324191",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1056144373%2F2560545315651%2F1%2Foriginal.20250618-215140?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00562378404669&fp-y=0.00222438381804&s=e39decb1ae725ecb89d78f20bc6b58c4",
-      "id": "3c658b8056c7"
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F902367093%2F251550691539%2F1%2Foriginal.20241119-185814?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=fe86929b53b7e24caa61f88c78f91439",
+      "id": "8d274755d91d"
     },
     {
       "title": "Mother's Day 1M 5K 10K 13.1 26.2",
@@ -1812,7 +1747,7 @@
       "category": "sports",
       "start_time": "2026-05-10T00:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-iUcwlHaQXu82MqJ",
+      "url": "https://luma.com/dailyfun10kfreeroll",
       "source": "Luma",
       "image_url": "",
       "id": "eb3ff1bc7bc5"
@@ -1825,10 +1760,23 @@
       "category": "culture",
       "start_time": "2026-05-10T01:30:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-MoqG3uk56Us7FmX",
+      "url": "https://luma.com/3c7tytnl",
       "source": "Luma",
       "image_url": "",
       "id": "437f93ea6e70"
+    },
+    {
+      "title": "FREE: SF’s Mother’s Day Comedy Festival 2026 (Happy Hour All Night) - FREE",
+      "description": "The post FREE: SF’s Mother’s Day Comedy Festival 2026 (Happy Hour All Night) appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-05-10T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/free-sfs-mothers-day-comedy-festival-2026-happy-hour-all-night/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "6c8cb9396d59"
     },
     {
       "title": "Mother’s Day Tea Time",
@@ -1877,7 +1825,7 @@
       "category": "culture",
       "start_time": "2026-05-10T21:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-Y9WHeqA9pWcJLCD",
+      "url": "https://luma.com/emb4gayk",
       "source": "Luma",
       "image_url": "",
       "id": "ffd95bb4f7b6"
@@ -1890,7 +1838,7 @@
       "category": "outdoor",
       "start_time": "2026-05-10T21:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-HnfeVTCYNWwSaGN",
+      "url": "https://luma.com/6fnq9ef7",
       "source": "Luma",
       "image_url": "",
       "id": "942915a4a1e1"
@@ -1903,7 +1851,7 @@
       "category": "art",
       "start_time": "2026-05-11T02:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-f7r1xBS7WgB9CaN",
+      "url": "https://luma.com/tiat17",
       "source": "Luma",
       "image_url": "",
       "id": "f11e6b2ce63d"
@@ -1981,7 +1929,7 @@
       "category": "art",
       "start_time": "2026-05-12T01:00:00.000Z",
       "price": "See listing",
-      "url": "https://lu.ma/evt-dMwkmt82TRgQomD",
+      "url": "https://luma.com/0o8y6jdb",
       "source": "Luma",
       "image_url": "",
       "id": "5ec3b09e6be7"
@@ -2117,6 +2065,19 @@
       "id": "292be9c247d9"
     },
     {
+      "title": "Customer Service Essentials 1-Day Workshop |San Francisco, CA",
+      "description": "Get ready to level up your customer service skills in this interactive workshop where you'll learn essential tips and tricks for success.",
+      "venue": "For venue details reach us at info@learnerring.com",
+      "neighborhood": "San Francisco",
+      "category": "lectures",
+      "start_time": "2026-05-14",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/customer-service-essentials-1-day-workshop-san-francisco-ca-tickets-1966464808177",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170471956%2F2758570858651%2F1%2Foriginal.20251108-095132?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.497&fp-y=0.518&s=e33b6cf235c55d7b2c9248033bb26691",
+      "id": "ecaa979bc4fd"
+    },
+    {
       "title": "Wisdom & AI Summit 2026",
       "description": "Can We Harness AI In Ways That Serve Humanity?",
       "venue": "SFJAZZ",
@@ -2247,6 +2208,19 @@
       "id": "32ef14248692"
     },
     {
+      "title": "Cheaper Than Therapy, Stand-up Comedy: Fri, May 15 @ 9:45pm",
+      "description": "San Francisco stand-up comedy every Wed, Thu, Fri, Sat, and Sun. No drink minimum.",
+      "venue": "Cheaper Than Therapy",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-05-15",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/cheaper-than-therapy-stand-up-comedy-fri-may-15-945pm-tickets-1982180388902",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1090343243%2F116914461243%2F1%2Foriginal.20250807-105811?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d8d74499cb3de7028e946acc0859a641",
+      "id": "171ad4d4f54b"
+    },
+    {
       "title": "Proposal Writing Skills 1 Day Workshop |Daly City, CA",
       "description": "Get ready to level up your grant game with insider tips and tricks at our Proposal Writing Skills Workshop!",
       "venue": "For venue details reach us at info@learnerring.com",
@@ -2256,34 +2230,8 @@
       "price": "See listing",
       "url": "https://www.eventbrite.com/e/proposal-writing-skills-1-day-workshop-daly-city-ca-tickets-1978231393350",
       "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173038240%2F2758570858651%2F1%2Foriginal.20251216-054916?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.561&s=c2d4d2496f4067338578d1a468411482",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173038240%2F2758570858651%2F1%2Foriginal.20251216-054916?crop=focalpoint&fit=crop&h=200&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.561&s=60a86efa593a854021bf5a563e249a83",
       "id": "39f3209406bc"
-    },
-    {
-      "title": "Artificial Intelligence & Automation 1 Day Workshop |Daly City, CA",
-      "description": "Understand AI, Automation & Real-World Business Applications | Hands-On | Beginner to Intermediate",
-      "venue": "For venue details reach us at info@learnerring.com",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-05-15",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/artificial-intelligence-automation-1-day-workshop-daly-city-ca-tickets-1980183691727",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174181986%2F2758570858651%2F1%2Foriginal.20260107-055847?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5012064459dd23714c89a263e3cebdec",
-      "id": "373265e9f3a6"
-    },
-    {
-      "title": "Self Development for Managers 1-Day Workshop | Daly City, CA",
-      "description": "Boost your leadership skills and learn practical tips to level up your management game in just one day!",
-      "venue": "For venue details reach us at info@learnerring.com",
-      "neighborhood": "San Francisco",
-      "category": "lectures",
-      "start_time": "2026-05-15",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/self-development-for-managers-1-day-workshop-daly-city-ca-tickets-1983867722763",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1178274343%2F2749146114041%2F1%2Foriginal.20260224-040616?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=99432423c7adf3a8dc4674628649ffc5",
-      "id": "758d33c0f742"
     },
     {
       "title": "Cheaper Than Therapy, Stand-up Comedy, Shelton Theater, Union Square, SF",
@@ -2520,6 +2468,32 @@
       "id": "df02ace42206"
     },
     {
+      "title": "Business Finance Basics 1 Day Workshop |San Francisco, CA",
+      "description": "Get ready to level up your money game with our Business Finance Basics 1-Day Workshop - practical tips and tricks to boost your financial kn",
+      "venue": "For venue details reach us at info@learnerring.com",
+      "neighborhood": "San Francisco",
+      "category": "lectures",
+      "start_time": "2026-05-21",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/business-finance-basics-1-day-workshop-san-francisco-ca-tickets-1979221087552",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173634834%2F2758570858651%2F1%2Foriginal.20251229-063310?crop=focalpoint&fit=crop&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=cb0f11c93ff7abf7dd01101c3380ee5d",
+      "id": "9ae1a0bd894c"
+    },
+    {
+      "title": "Business Ethics 1 Day Workshop | Daly City, CA",
+      "description": "Get ready to dive deep into the world of business ethics in our interactive workshop - let's navigate the gray areas together!",
+      "venue": "For venue details reach us at info@learnerring.com",
+      "neighborhood": "San Francisco",
+      "category": "lectures",
+      "start_time": "2026-05-21",
+      "price": "See listing",
+      "url": "https://www.eventbrite.com/e/business-ethics-1-day-workshop-daly-city-ca-tickets-1979279157240",
+      "source": "Eventbrite",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1173635264%2F2510240842121%2F1%2Foriginal.20251229-064717?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=eac571330fc08b45811af19a116a78e0",
+      "id": "703781ce3289"
+    },
+    {
       "title": "Open Rehearsal with vocalist Carmina Escobar (Orphea)",
       "description": "",
       "venue": "836M",
@@ -2557,19 +2531,6 @@
       "source": "Eventbrite",
       "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1179403384%2F2184038182323%2F1%2Foriginal.20260309-171536?h=200&auto=format%2Ccompress&q=75&sharp=10&s=7b1c89405b70884b5329ed167cc4c884",
       "id": "6c95b434320f"
-    },
-    {
-      "title": "Cheaper Than Therapy, Stand-up Comedy: Fri, May 22 @ 9:45pm",
-      "description": "San Francisco stand-up comedy every Wed, Thu, Fri, Sat, and Sun. No drink minimum.",
-      "venue": "Cheaper Than Therapy",
-      "neighborhood": "San Francisco",
-      "category": "comedy",
-      "start_time": "2026-05-22",
-      "price": "See listing",
-      "url": "https://www.eventbrite.com/e/cheaper-than-therapy-stand-up-comedy-fri-may-22-945pm-tickets-1983237122621",
-      "source": "Eventbrite",
-      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1090343243%2F116914461243%2F1%2Foriginal.20250807-105811?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d8d74499cb3de7028e946acc0859a641",
-      "id": "9552d74b0a6d"
     },
     {
       "title": "BASH- Bay Area & Sacramento Short Film Festival 2026- Part 1- PLUS",
@@ -3027,19 +2988,6 @@
       "id": "ec7c193ccecd"
     },
     {
-      "title": "Oakland’s Montclair Beer, Wine & Music Fest w/ 50+ Tastings (2026) - $61.55",
-      "description": "Montclair Beer, Wine & Music Festival Returns June 20, 2026 A Full Day of Craft Tastings, Live Music, Local Food, and Family Fun in Montclair Village Oakland, CA, The Montclair Beer, Wine & Music Festival returns to Montclair Village on Saturday, June 20, 2026, from 12:00 PM ... The post Oakland’s M",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "food",
-      "start_time": "2026-06-20T19:00:00-07:00",
-      "price": "$61",
-      "url": "https://sf.funcheap.com/oaklands-montclair-beer-wine-music-fest-50-tastings-2026/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "2aa4971bcb91"
-    },
-    {
       "title": "2026 Presidio Half Marathon - San Francisco - Half Marathon, 10K, 5K",
       "description": "A stunning run across the Golden Gate Bridge",
       "venue": "Crissy Field across from the Sports Basement",
@@ -3092,17 +3040,17 @@
       "id": "55101de6382b"
     },
     {
-      "title": "Japanese Tea Garden’s Free Admission Hour (Golden Gate Park) - FREE",
-      "description": "The post Japanese Tea Garden’s Free Admission Hour (Golden Gate Park) appeared first on Funcheap .",
+      "title": "Oakland’s Free POC Comedy Night (Temescal) - FREE",
+      "description": "The post Oakland’s Free POC Comedy Night (Temescal) appeared first on Funcheap .",
       "venue": "",
-      "neighborhood": "Mission",
-      "category": "outdoor",
-      "start_time": "2026-07-01T19:00:00-07:00",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-07-02T19:00:00-07:00",
       "price": "Free",
-      "url": "https://sf.funcheap.com/japanese-tea-gardens-free-admission-hour-golden-gate-park-394/",
+      "url": "https://sf.funcheap.com/oaklands-free-poc-comedy-night-temescal-21/",
       "source": "FunCheap",
       "image_url": "",
-      "id": "b33789e2949c"
+      "id": "8394e9817275"
     },
     {
       "title": "Profit Margin Expansion Lab Leader Training  | July 14 - 15, 2026",
@@ -3155,6 +3103,19 @@
       "source": "Eventbrite",
       "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1169737833%2F145788999997%2F1%2Foriginal.20251104-024912?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.169&fp-y=0.439&s=b151196bf1e2ac9353d14fbd1f162610",
       "id": "14e242b77c42"
+    },
+    {
+      "title": "“Safe Words” Comedy & Hot Dogs | SF - FREE",
+      "description": "The post “Safe Words” Comedy & Hot Dogs | SF appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-08-05T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/safe-words-comedy-hot-dogs-sf-121/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "b3479edf4ddf"
     },
     {
       "title": "OUTSIDE LANDS Shuttle Bus from FISHERMAN'S WHARF (San Francisco)",
@@ -3246,19 +3207,6 @@
       "source": "Eventbrite",
       "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181328269%2F163694741908%2F1%2Foriginal.20260402-203526?crop=focalpoint&fit=crop&h=200&w=355&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1da0d6c315324f27b623f8114f713142",
       "id": "a593a384f195"
-    },
-    {
-      "title": "SF’s “Chinatown Night Market” 2026 (Every Second Friday) - FREE",
-      "description": "The post SF’s “Chinatown Night Market” 2026 (Every Second Friday) appeared first on Funcheap .",
-      "venue": "",
-      "neighborhood": "Chinatown",
-      "category": "culture",
-      "start_time": "2026-10-09T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/sfs-chinatown-night-market-2026-every-second-friday-5/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "49c83f93f2b5"
     },
     {
       "title": "2026 Born to Be a Princess 1M 5K 10K 13.1 26.2 - Now Only $16!",
