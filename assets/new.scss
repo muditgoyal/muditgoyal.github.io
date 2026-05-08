@@ -2,17 +2,17 @@
 ---
 
 // ── Variables ──
-$bg: #f5f3ef;
-$bg-warm: #eae7e0;
+$bg: #f8f6f4;
+$bg-warm: #eeecea;
 $bg-card: #ffffff;
-$text: #2c2825;
-$text-secondary: #6e6762;
-$text-muted: #a39e98;
-$accent: #d4603a;
-$accent-dark: #b5492a;
-$accent-light: #f0c4b3;
-$border: #ddd9d3;
-$border-light: #eae7e2;
+$text: #2a2d3e;
+$text-secondary: #5a5e6e;
+$text-muted: #a8aeb8;
+$accent: #5c7a99;
+$accent-dark: #3e5f7e;
+$accent-light: #d1dde8;
+$border: #e2deda;
+$border-light: #eceae8;
 $font-serif: 'Instrument Serif', Georgia, serif;
 $font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
 $radius: 12px;
@@ -108,8 +108,8 @@ img { max-width: 100%; }
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    background: #d1fae5;
-    color: #047857;
+    background: $accent-light;
+    color: $accent-dark;
   }
 
   .dot-sep {
