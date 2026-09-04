@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>muditgoyal</title>
+  <title>muditgoyal — Projects</title>
   <link rel="shortcut icon" href="/assets/fav.png">
   <meta content="muditgoyal" property="og:title">
   <meta content="https://muditgoyal.com" property="og:url">
@@ -177,28 +177,6 @@
       letter-spacing: 1.4px;
       text-transform: uppercase;
       margin: 0 0 32px;
-    }
-
-    /* ---- Home intro ---- */
-    .intro p {
-      font-family: var(--font-serif);
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 1.65;
-      margin: 0 0 24px;
-      max-width: 54ch;
-    }
-
-    .intro .intro-lead {
-      font-size: 32px;
-      line-height: 1.25;
-      letter-spacing: -0.8px;
-      margin: 0 0 32px;
-      max-width: none;
-    }
-
-    .intro p:last-child {
-      margin-bottom: 0;
     }
 
     .content a.inline-link {
@@ -495,10 +473,10 @@
         <span>San Francisco</span>
       </div>
       <nav class="rail-nav">
-        <a href="/" class="active" aria-current="page">Home</a>
+        <a href="/">Home</a>
         <a href="/work.html">Work</a>
         <a href="/speaking.html">Speaking</a>
-        <a href="/projects.html">Projects</a>
+        <a href="/projects.html" class="active" aria-current="page">Projects</a>
       </nav>
       <nav class="rail-social">
         <a href="https://www.linkedin.com/in/goyalmudit/">LinkedIn</a>
@@ -509,13 +487,15 @@
       </nav>
     </aside>
 
-    <!-- Home content -->
+    <!-- Projects content -->
     <main class="content">
-      <!-- Intro -->
-      <section class="section intro">
-        <p class="intro-lead">I build for growth, with data.</p>
-        <p>Most of my work is the measurement behind how companies grow &mdash; the models, the metrics, and the systems that turn both into decisions people actually make. Currently at Notion.</p>
-        <p>Alongside that I teach data science at UC Berkeley, mentor early-stage founders, and ship small things on the internet.</p>
+      <!-- Projects -->
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+        <a href="/sf-events/" class="project-card">
+          <span class="project-name">Acontece SF</span>
+          <span class="project-desc">Live SF events aggregator, scraped daily from 13 sources</span>
+        </a>
       </section>
 
       <!-- Footer / CTA -->
