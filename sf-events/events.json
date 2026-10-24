@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-23T10:41:31.440180-07:00",
-  "event_count": 82,
+  "scraped_at": "2026-10-24T09:25:24.424219-07:00",
+  "event_count": 80,
   "sources": [
     "DoTheBay",
     "DowntownSF",
@@ -15,12 +15,12 @@
       "venue": "Oct",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-10-23T10:41:30.812673-07:00",
+      "start_time": "2026-10-24T09:25:24.073619-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/fall-2026-sf-restaurant-week",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "865c9a8a3fdc"
+      "id": "7ef64e5c9bd8"
     },
     {
       "title": "Exhibition",
@@ -28,12 +28,12 @@
       "venue": "Rebecca Camacho Presents",
       "neighborhood": "San Francisco",
       "category": "art",
-      "start_time": "2026-10-23T10:41:30.813471-07:00",
+      "start_time": "2026-10-24T09:25:24.074082-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/exhibition-a-fluorescent-realm-by-gamaliel-rodriguez",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "d8d771f83f4b"
+      "id": "41a422178269"
     },
     {
       "title": "Ferry Bocce Fall League",
@@ -41,12 +41,12 @@
       "venue": "",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-10-23T10:41:30.813571-07:00",
+      "start_time": "2026-10-24T09:25:24.074143-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/ferry-bocce-fall-league",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "4d262cbcea26"
+      "id": "38bd11452b64"
     },
     {
       "title": "SLASHED: Return to Hellville",
@@ -54,25 +54,12 @@
       "venue": "The San Francisco Mint",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-10-23T10:41:31.322720-07:00",
+      "start_time": "2026-10-24T09:25:24.319346-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/10/1/terror-vault-slashed-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "bbd5f487bf5d"
-    },
-    {
-      "title": "Gary Clark Jr.",
-      "description": "",
-      "venue": "Fox Theater",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.324452-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/gary-clark-jr-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "2ef4864c2399"
+      "id": "976109ee5790"
     },
     {
       "title": "The Black Cat Hotel",
@@ -80,25 +67,25 @@
       "venue": "The Palace Theater",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-10-23T10:41:31.326052-07:00",
+      "start_time": "2026-10-24T09:25:24.320155-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/10/8/the-black-cat-hotel-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "87ce1badb85a"
+      "id": "22080b588a80"
     },
     {
-      "title": "Julia Jacklin",
+      "title": "Jai Wolf",
       "description": "",
-      "venue": "The Castro",
-      "neighborhood": "Castro",
+      "venue": "The Regency Ballroom",
+      "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.327776-07:00",
+      "start_time": "2026-10-24T09:25:24.321033-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/julia-jacklin-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/jai-wolf-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "deecd0031b61"
+      "id": "1e640ab2bb95"
     },
     {
       "title": "The Compton's Cafeteria Riot",
@@ -106,90 +93,116 @@
       "venue": "835 Larkin St",
       "neighborhood": "San Francisco",
       "category": "theater",
-      "start_time": "2026-10-23T10:41:31.329238-07:00",
+      "start_time": "2026-10-24T09:25:24.321778-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/2/13/the-comptons-cafeteria-riot-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "f38cca9b1695"
+      "id": "b443b556ac27"
     },
     {
-      "title": "Pouya",
+      "title": "William Black",
       "description": "",
-      "venue": "The Fillmore",
-      "neighborhood": "Western Addition",
+      "venue": "Fox Theater",
+      "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.331757-07:00",
+      "start_time": "2026-10-24T09:25:24.322612-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/pouya-the-forever-glades-tour-2026-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/william-black-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d2b3b1bb4e12"
+      "id": "87fe71cef1cc"
     },
     {
-      "title": "Julia Wolf",
+      "title": "Julia Jacklin",
       "description": "",
-      "venue": "The Warfield",
-      "neighborhood": "Mid-Market",
+      "venue": "The Castro",
+      "neighborhood": "Castro",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.333424-07:00",
+      "start_time": "2026-10-24T09:25:24.323450-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/julia-wolf-with-bee-blackwell-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/julia-jacklin-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "86c2439f19d0"
+      "id": "c007cb73932b"
     },
     {
-      "title": "SLIFT",
+      "title": "Bit City at Mr. Bing's",
+      "description": "",
+      "venue": "Mr. Bing's",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-10-24T09:25:24.324199-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/weekly/sat/live-comedy-in-the-attic-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "4a55f0235532"
+    },
+    {
+      "title": "Protomartyr",
       "description": "",
       "venue": "August Hall",
       "neighborhood": "Mid-Market",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.334910-07:00",
+      "start_time": "2026-10-24T09:25:24.325019-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/slift-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/protomartyr-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "a35e38cca70b"
+      "id": "74c5056b41ba"
     },
     {
-      "title": "Haunted Riot with Frightwig: An Alt Punk Show",
+      "title": "SOFI TUKKER",
       "description": "",
-      "venue": "The Chapel",
+      "venue": "Cow Palace",
+      "neighborhood": "San Francisco",
+      "category": "music",
+      "start_time": "2026-10-24T09:25:24.325836-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/sofi-tukker-presents-animal-talk-cow-palace-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "c106b690f5e4"
+    },
+    {
+      "title": "San Francisco Halloween Bar Crawl 2026",
+      "description": "",
+      "venue": "Mayes Oyster House",
+      "neighborhood": "San Francisco",
+      "category": "food",
+      "start_time": "2026-10-24T09:25:24.326582-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/san-francisco-halloween-bar-crawl-2026-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "e348fb6e5823"
+    },
+    {
+      "title": "Everclear w/ American Hi-Fi",
+      "description": "",
+      "venue": "The Independent",
+      "neighborhood": "Western Addition",
+      "category": "music",
+      "start_time": "2026-10-24T09:25:24.327415-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/everclear-with-american-hi-fi-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "8f9ac7ed7e9c"
+    },
+    {
+      "title": "Ivy Lab",
+      "description": "",
+      "venue": "Public Works",
       "neighborhood": "Mission",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.336559-07:00",
+      "start_time": "2026-10-24T09:25:24.328243-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/haunted-riot-with-frightwig-an-alt-punk-show-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/ivy-lab-a-farewell-tour-presented-by-public-works-goldenvoice-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "18c25f25e410"
-    },
-    {
-      "title": "Modest Mouse",
-      "description": "",
-      "venue": "Channel 24",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.338494-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/modest-mouse-caroline-rose-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "603e204dd452"
-    },
-    {
-      "title": "CID x Maesic",
-      "description": "",
-      "venue": "1015 Folsom",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.340169-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/cid-x-maesic-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "0241c4fd6622"
+      "id": "35f0ba136ffd"
     },
     {
       "title": "K.Flay",
@@ -197,116 +210,64 @@
       "venue": "Bottom Of The Hill",
       "neighborhood": "Potrero Hill",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.341843-07:00",
+      "start_time": "2026-10-24T09:25:24.329064-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/k-flay-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/k-flay-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "9436c9856933"
+      "id": "7bc6bc63a09c"
     },
     {
-      "title": "Laurie Kilmartin",
-      "description": "",
-      "venue": "Punch Line San Francisco",
-      "neighborhood": "Financial District",
-      "category": "comedy",
-      "start_time": "2026-10-23T10:41:31.343460-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/laurie-kilmartin-tickets-vmoq7kb",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "4f9e46b767fb"
-    },
-    {
-      "title": "Chief Keef",
-      "description": "",
-      "venue": "The Midway",
-      "neighborhood": "Dogpatch",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.345144-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/chief-keef-midway-sf-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "4819a6e6b5a5"
-    },
-    {
-      "title": "Secret Comedy Show",
-      "description": "",
-      "venue": "Mr. Mahjong's",
-      "neighborhood": "San Francisco",
-      "category": "comedy",
-      "start_time": "2026-10-23T10:41:31.346476-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/weekly/fri/sf-secret-speakeasy-comedy-show-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "8c845ca8f2b3"
-    },
-    {
-      "title": "Kacey Musgraves",
-      "description": "",
-      "venue": "Oakland Arena",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.347646-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/kacey-musgraves-featuring-estevie-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "dbdc3ea5a61e"
-    },
-    {
-      "title": "Shaboozey",
+      "title": "Jodeci",
       "description": "",
       "venue": "The Masonic",
       "neighborhood": "Nob Hill",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.349103-07:00",
+      "start_time": "2026-10-24T09:25:24.329884-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/shaboozey-outlaws-never-die-tour-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/jodeci-35th-anniversary-tour-of-forever-my-lady-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d8910df84fd4"
+      "id": "9c7640023d0e"
     },
     {
-      "title": "Los Vega Son Jarocho",
+      "title": "Amble",
       "description": "",
-      "venue": "The Freight",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.350580-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/2026-los-vega-son-jarocho-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "2602ae4ef7c6"
-    },
-    {
-      "title": "Frog",
-      "description": "",
-      "venue": "The Independent",
+      "venue": "The Fillmore",
       "neighborhood": "Western Addition",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.352237-07:00",
+      "start_time": "2026-10-24T09:25:24.330720-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/frog-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/amble-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "b0dced3e8d63"
+      "id": "c782721ec0af"
     },
     {
-      "title": "Everclear",
+      "title": "Dermot Kennedy",
       "description": "",
-      "venue": "Ace of Spades",
+      "venue": "Bill Graham Civic Auditorium",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.353659-07:00",
+      "start_time": "2026-10-24T09:25:24.331543-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/everclear-lucky-7-tour-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/dermot-kennedy-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "e5f4bf38bf37"
+      "id": "338ff4e9315b"
+    },
+    {
+      "title": "fakemink",
+      "description": "",
+      "venue": "The Warfield",
+      "neighborhood": "Mid-Market",
+      "category": "music",
+      "start_time": "2026-10-24T09:25:24.332370-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/fakemink-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "2e63cd3f700d"
     },
     {
       "title": "Phoebe Robinson",
@@ -314,38 +275,25 @@
       "venue": "Cobb's Comedy Club",
       "neighborhood": "North Beach",
       "category": "comedy",
-      "start_time": "2026-10-23T10:41:31.355168-07:00",
+      "start_time": "2026-10-24T09:25:24.333096-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/phoebe-robinson-feral-fired-up-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/phoebe-robinson-feral-fired-up-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "f0fb642dde6e"
+      "id": "c82b20b975de"
     },
     {
-      "title": "Ub40",
+      "title": "John Gorka",
       "description": "",
-      "venue": "The Mountain Winery",
+      "venue": "The Freight",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.356844-07:00",
+      "start_time": "2026-10-24T09:25:24.333828-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/ub40-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/john-gorka-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "87d427947ab7"
-    },
-    {
-      "title": "EAZYBAKED",
-      "description": "",
-      "venue": "Public Works",
-      "neighborhood": "Mission",
-      "category": "music",
-      "start_time": "2026-10-23T10:41:31.359881-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/eazybaked-presented-by-public-works-insomniac-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "ae4caa6bf95f"
+      "id": "2b1f75f6bce0"
     },
     {
       "title": "Basement",
@@ -353,38 +301,51 @@
       "venue": "The UC Theatre",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-10-23T10:41:31.361369-07:00",
+      "start_time": "2026-10-24T09:25:24.335294-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/10/23/basement-tickets",
+      "url": "https://dothebay.com/events/2026/10/24/basement-night-2-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "b32f188be421"
+      "id": "6d5274f39679"
     },
     {
-      "title": "Politics With a Liberal Twist for Cranky Seniors ",
-      "description": "We are a supportive, thoughtful, kind, mostly serious, open minded and occasionally cranky discussion group for folks over 50 from all over about politics, society, the state of our communities, country and world and our hopes, dreams, fears and plans for the future. We generally lean center to left",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-10-23T18:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/politics-with-a-liberal-twist-for-cranky-seniors/events/317048411/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
-      "id": "f5cedb60a700"
-    },
-    {
-      "title": "BOXOWEEN",
+      "title": "RM x SFMOMA: Between You and Me",
       "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-10-24T04:00:00.000Z",
+      "venue": "SFMOMA",
+      "neighborhood": "SoMa",
+      "category": "art",
+      "start_time": "2026-10-24T09:25:24.336099-07:00",
       "price": "See listing",
-      "url": "https://luma.com/5q6cxdme",
-      "source": "Luma",
+      "url": "https://dothebay.com/events/2026/10/3/rm-x-sfmoma-between-you-and-me-tickets",
+      "source": "DoTheBay",
       "image_url": "",
-      "id": "58433f685071"
+      "id": "e76832a1078d"
+    },
+    {
+      "title": "Laurie Kilmartin",
+      "description": "",
+      "venue": "Punch Line San Francisco",
+      "neighborhood": "Financial District",
+      "category": "comedy",
+      "start_time": "2026-10-24T09:25:24.336832-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/laurie-kilmartin-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "870ace99840f"
+    },
+    {
+      "title": "Fisherman's Wharf Chowder Fest 2026",
+      "description": "",
+      "venue": "Fisherman's Wharf",
+      "neighborhood": "San Francisco",
+      "category": "food",
+      "start_time": "2026-10-24T09:25:24.338337-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/10/24/fishermans-wharf-chowder-fest-2026-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "1f34a8cad918"
     },
     {
       "title": "Nine-Hole Shotgun Scramble: The Girls are Taking Over the Course 💗",
@@ -411,6 +372,19 @@
       "source": "Meetup",
       "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
       "id": "aea3e8ebd32d"
+    },
+    {
+      "title": "How to Start Fresh after a Divorce or Breakup",
+      "description": "Going through a breakup or divorce can be challenging, but it's also an opportunity for a fresh start. In this empowering Meetup event, we'll explore effective strategies to help you navigate this transition and embark on a journey of self-discovery and renewal. * Rediscover the joys of independence",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "art",
+      "start_time": "2026-10-24T18:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/getting-over-a-toxic-or-narcissistic-partner/events/316953291/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-3-square.webp",
+      "id": "ffe70356871a"
     },
     {
       "title": "Queer History Tour",
@@ -504,6 +478,32 @@
       "id": "6f9c39213628"
     },
     {
+      "title": "Products and Methods",
+      "description": "We'll meetup at a coffee shop and sit around for about 25 minutes waiting for folks to show up. Then we'll walk over to golden gate park and walk in interchangeable groups of 4-5. Then we'll circulate in pairs and regroup for insights. Maybe we'll get some food after (depending on how we feel.) I'll",
+      "venue": "852 Stanyan St",
+      "neighborhood": "San Francisco",
+      "category": "outdoor",
+      "start_time": "2026-10-24T20:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/renegadephilosophers/events/317017901/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-3-square.webp",
+      "id": "f75cfae27d10"
+    },
+    {
+      "title": "AMC A-List Meetup",
+      "description": "Are you an AMC A-List member? Come meet other A-List members and find people with similar movie tastes to add to your Entourage list to book movies with together. The event will be casual - we'll get a table downstairs to chat and meet up and you can book an afternoon movie and head up whenever it's",
+      "venue": "AMC Metreon 16",
+      "neighborhood": "San Francisco",
+      "category": "film",
+      "start_time": "2026-10-24T20:30:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/sf-movie-club/events/316918812/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-1-square.webp",
+      "id": "1941a63d5288"
+    },
+    {
       "title": "BABF Halloween Book Fair",
       "description": "",
       "venue": "",
@@ -528,6 +528,19 @@
       "source": "Luma",
       "image_url": "",
       "id": "8adef82a135e"
+    },
+    {
+      "title": "Board Games at Upcider",
+      "description": "Ordering a drink/food item is required. Our hosts are gracious enough to allow us to use their space; we should reciprocate accordingly by supporting their business. **Food & Drinks x Board Games** Join us for a casual evening of board games at Upcider. Whether you've been playing for years or just ",
+      "venue": "Upcider",
+      "neighborhood": "San Francisco",
+      "category": "food",
+      "start_time": "2026-10-25T01:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/san-francisco-sociale-meetup-group/events/316560454/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-2-square.webp",
+      "id": "04d17f12e8e7"
     },
     {
       "title": "The Bay Area’s biggest dumpling party is back. 🥟",
@@ -608,6 +621,32 @@
       "id": "3e5aaff71c7a"
     },
     {
+      "title": "How to Get Customers to Actually Pay",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-10-27T01:30:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/xrrmbz46",
+      "source": "Luma",
+      "image_url": "",
+      "id": "7cc0ff8baa1a"
+    },
+    {
+      "title": "KEYBOARD NIGHT at User Experience Gallery",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "art",
+      "start_time": "2026-10-27T02:00:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/ikj23e58",
+      "source": "Luma",
+      "image_url": "",
+      "id": "187fdb52a0f4"
+    },
+    {
       "title": "20s & 30s Speed Friending : Emporium + Madrones Monday Night Groove!!",
       "description": "**RSVP via:** https://app.gistirl.com/event-details/wbIzNuebvJGCPYvR5Pdh **Early Bird Discounts | More $ Later** WOW EVERYODY!! We had a huge turnout last time. So here we go for our 3rd Series!!! ;) EVENT WILL BE CAPPED AT 50 PEOPLE! Here, you'll meet someone new every 8 minutes! Literal speed-frie",
       "venue": "San Francisco San Francisco, CA",
@@ -619,19 +658,6 @@
       "source": "Meetup",
       "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
       "id": "f0dfd3a1ea58"
-    },
-    {
-      "title": "BioTech and Pharma Startups, Investors & Professionals Networking Event",
-      "description": "**✨ To join this event, please make sure to book your ticket here 👉[https://www.eventbrite.com/e/sf-biotech-pharma-medtech-networking-pitch-mixer-tickets-2001386175928](https://www.eventbrite.com/e/sf-biotech-pharma-medtech-networking-pitch-mixer-tickets-2001386175928)** **Spaces are limited, and on",
-      "venue": "Last Drop Tavern",
-      "neighborhood": "San Francisco",
-      "category": "tech",
-      "start_time": "2026-10-27T02:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/sanfrancisco-startup-pitch-and-networking/events/316608999/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
-      "id": "7b608673e390"
     },
     {
       "title": "SEV0 - The reliability conference (SF)",
@@ -671,6 +697,19 @@
       "source": "Luma",
       "image_url": "",
       "id": "95d8c8163a8a"
+    },
+    {
+      "title": "Catie Cuan // Physical AI: Giving AI a Robot Body",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "tech",
+      "start_time": "2026-10-28T00:30:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/hsmpoyxa",
+      "source": "Luma",
+      "image_url": "",
+      "id": "97971f37d79d"
     },
     {
       "title": "🏓 Ping Pong Night // Inference × Depot",
@@ -725,19 +764,6 @@
       "id": "9b912ec5738e"
     },
     {
-      "title": "Same Prompt, Different Results: Which AI Image Model Fits Your Brand?",
-      "description": "\\# Same Prompt\\, Different Results: Which AI Image Model Fits Your Brand? Spending more time rewriting prompts than getting images you can actually use? Your choice of AI model could be part of the problem. Join Business Growth Lab for a practical comparison of AI image generation models. Explore ho",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-10-28T02:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/business-growth-lab-solve-problems-build-together-sf/events/317055193/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-1-square.webp",
-      "id": "8ce39ec9e93a"
-    },
-    {
       "title": "Bay Area Biosecurity Lightning Talks 03",
       "description": "",
       "venue": "",
@@ -751,56 +777,17 @@
       "id": "0e86351ea8fa"
     },
     {
-      "title": "Women in AI | Factory x Sapienne x Sequoia",
-      "description": "",
+      "title": "Same Prompt, Different Results: Which AI Image Model Fits Your Brand?",
+      "description": "\\# Same Prompt\\, Different Results: Which AI Image Model Fits Your Brand? Spending more time rewriting prompts than getting images you can actually use? Your choice of AI model could be part of the problem. Join Business Growth Lab for a practical comparison of AI image generation models. Explore ho",
       "venue": "",
       "neighborhood": "San Francisco",
-      "category": "tech",
+      "category": "art",
       "start_time": "2026-10-28T02:00:00.000Z",
       "price": "See listing",
-      "url": "https://luma.com/factoryai-sdkw",
-      "source": "Luma",
-      "image_url": "",
-      "id": "1e725963d11a"
-    },
-    {
-      "title": "MUSIC JAM SF ",
-      "description": "**EVENT DESCRIPTION:** Hello Everyone! Excited to keep these events coming your way! October is here and so it is time to play some music together. Here are the details of the event. **1) BRING YOUR OWN INSTRUMENT/AMP:** \\- If you do not have an instrument\\, there will be a place for you to sing\\! O",
-      "venue": "Cobaltix, LLC",
-      "neighborhood": "San Francisco",
-      "category": "theater",
-      "start_time": "2026-10-28T02:30:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/meetup-group-dvhbxtfg/events/316919711/",
+      "url": "https://www.meetup.com/business-growth-lab-solve-problems-build-together-sf/events/317055193/",
       "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-2-square.webp",
-      "id": "f933c2b8c139"
-    },
-    {
-      "title": "GitBlame: Werewolf Happy Hour @GitHub Universe",
-      "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-10-29T00:00:00.000Z",
-      "price": "See listing",
-      "url": "https://luma.com/gitblame-werewolf",
-      "source": "Luma",
-      "image_url": "",
-      "id": "7e52b647a186"
-    },
-    {
-      "title": "Halloween-Screening: Zombie Films (SF) - FREE",
-      "description": "German cinema helped give birth to horror with classics like Nosferatu and The Cabinet of Dr. Caligari, and a new generation of filmmakers is reviving that tradition today. After last year’s look at the genre films of the 1970s, this year we turn to the ... The post Halloween-Screening: Zombie Films",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "film",
-      "start_time": "2026-10-29T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/halloweenscreening-zombie-films-sf/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "bace1c1d864e"
+      "image_url": "/images/fallbacks/redesign/group-cover-1-square.webp",
+      "id": "8ce39ec9e93a"
     },
     {
       "title": "Trick-or-Treat at the Ferry Building",
@@ -881,6 +868,32 @@
       "id": "d140349afff4"
     },
     {
+      "title": "SF Halloween Night BOOs Cruise: 90-Minute Bay Cruise with Blue & Gold Fleet (Oct. 30-31) - $50",
+      "description": "The post SF Halloween Night BOOs Cruise: 90-Minute Bay Cruise with Blue & Gold Fleet (Oct. 30-31) appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-10-31T19:00:00-07:00",
+      "price": "$50",
+      "url": "https://sf.funcheap.com/sf-halloween-night-boos-cruise-90-minute-bay-cruise-with-blue-gold-fleet-oct-30-31/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "535fc49c135c"
+    },
+    {
+      "title": "Boo On The Block Family Halloween Festival (Palo Alto) - $17.60",
+      "description": "✨ Before the neighborhood trick-or-treating begins, join us for an unforgettable afternoon of Halloween magic at a beautiful private estate in Crescent Park, one of Palo Alto’s most coveted neighborhoods! We’re bringing local families together for a festive afternoon filled with creativity, entertai",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "outdoor",
+      "start_time": "2026-10-31T19:00:00-07:00",
+      "price": "$17",
+      "url": "https://sf.funcheap.com/boo-block-family-halloween-festival-palo-alto/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "14844daa4984"
+    },
+    {
       "title": "A Verjus Halloween",
       "description": "",
       "venue": "7pm - 11pm",
@@ -909,7 +922,7 @@
     {
       "title": "Halloween Mixer & Join the Dance-o-ween Street Party (Wear a Costume!)",
       "description": "Get ready for a wild Halloween night in the Mission! First, we'll kick things off at a local bar to grab drinks, get acquainted, and show off our costumes before heading to Capp Street to join the Danceoween street party procession. **Show up on time (within the first 30 minutes) so you don't miss u",
-      "venue": "",
+      "venue": "Parklet Outside of Horsies Market & Saloon",
       "neighborhood": "San Francisco",
       "category": "art",
       "start_time": "2026-11-01T01:30:00.000Z",
@@ -917,20 +930,7 @@
       "url": "https://www.meetup.com/baysocials/events/317079385/",
       "source": "Meetup",
       "image_url": "/images/fallbacks/redesign/group-cover-5-square.webp",
-      "id": "b706251229cf"
-    },
-    {
-      "title": "20s & 30s Social @ Biergarten + New Friends",
-      "description": "**RSVP via:** https://app.gistirl.com/event-details/DAj4J01B7domKHRs4YR1 **Early Bird Discounts | More $ Later** Wow! We had such a huge turnout last time! We had to do this event again! And we're doing it whether you just went crazy last night and want a low-stakes way to recover or if you're tryin",
-      "venue": "San Francisco San Francisco, CA",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-11-02T01:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/gist-irl/events/316407033/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
-      "id": "19c2b76b981b"
+      "id": "4a333a46f75d"
     },
     {
       "title": "Snowflake Expedition 2026: Embark on Your Agentic Transformation",
@@ -1011,6 +1011,19 @@
       "id": "83eb72355fa4"
     },
     {
+      "title": "SF’s Free Holiday “Performing Arts Showcase” Under 1200+ LED Lights (Civic Center) - FREE",
+      "description": "On Friday, November 13, from 5–8 pm, Fulton Plaza will come alive beneath the dazzling SPECTRA lights for the holiday season’s Performing Arts Showcase, a celebration bringing together some of downtown’s most exciting performing arts organizations for one unforgettable evening. Guests will be treate",
+      "venue": "",
+      "neighborhood": "Civic Center",
+      "category": "art",
+      "start_time": "2026-11-13T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/sfs-free-holiday-performing-arts-showcase-1200-led-lights-civic-center/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "78641e7c1e4c"
+    },
+    {
       "title": "Alameda Artworks Open Studios (Nov. 14-15) - FREE",
       "description": "Alameda Artworks Open Studios Join us as over 30 local artists open their studio doors on November 14th and 15th, 2026 from 11:00 a.m. to 5:00 p.m. to showcase a dynamic array of fine and mixed media art. Visitors will experience a vibrant showcase featuring: Sculptures crafted from ... The post Ala",
       "venue": "",
@@ -1035,45 +1048,6 @@
       "source": "FunCheap",
       "image_url": "",
       "id": "a918e954bfd2"
-    },
-    {
-      "title": "Shadelands FallFest: Free Sports, Food Trucks, Family Activities (Walnut Creek) - FREE",
-      "description": "Enjoy a day with family and friends at Shadelands FallFest, Sunday, November 15, 11am–2pm, hosted by Shadelands Walnut Creek and held on the grounds of the Shadelands SportsMall, 2640 Shadelands Drive, Walnut Creek. Free and family-friendly, the popular, all-community Shadelands FallFest features no",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "food",
-      "start_time": "2026-11-15T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/shadelands-fallfest-free-sports-food-trucks-family-activities-walnut-creek/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "e090c1af8fdc"
-    },
-    {
-      "title": "Touki Bouki - $15",
-      "description": "Join us for Djibril Diop Mambéty’s stunning film that mixes the surreal and the naturalistic to paint a vivid, fractured portrait of Senegal in the early 1970s. Enjoy the film and free snacks, hand-picked by the series curator. Come early or stay late to visit our ... The post Touki Bouki appeared ",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "film",
-      "start_time": "2026-11-21T19:00:00-07:00",
-      "price": "$15",
-      "url": "https://sf.funcheap.com/touki-bouki/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "fb121f4ceda3"
-    },
-    {
-      "title": "West Indies: The Fugitive Slaves of Liberty - $15",
-      "description": "See director Med Hondo’s cinematic reimagining of an entire people’s history of resistance and struggle that investigates more than three centuries of imperialist oppression in this musical drama. Enjoy the film and free snacks, hand-picked by the series curator. Come early or stay late to visit ...",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "film",
-      "start_time": "2026-12-09T19:00:00-07:00",
-      "price": "$15",
-      "url": "https://sf.funcheap.com/west-indies-fugitive-slaves-liberty/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "328f9b8ad9f0"
     }
   ]
 }
