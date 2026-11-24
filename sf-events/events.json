@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-11-23T17:34:27.248934-07:00",
-  "event_count": 88,
+  "scraped_at": "2026-11-24T15:54:07.842151-07:00",
+  "event_count": 91,
   "sources": [
     "DoTheBay",
     "DowntownSF",
@@ -10,17 +10,43 @@
   ],
   "events": [
     {
+      "title": "Tim Burton's The Nightmare Before Christmas",
+      "description": "",
+      "venue": "Davies Symphony Hall",
+      "neighborhood": "Civic Center",
+      "category": "film",
+      "start_time": "2026-11-24T15:54:06.358750-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/11/24/the-nightmare-before-christmas-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "5e521715dad3"
+    },
+    {
+      "title": "San Jose Holiday Lights 2026",
+      "description": "",
+      "venue": "Discovery Meadow",
+      "neighborhood": "San Francisco",
+      "category": "art",
+      "start_time": "2026-11-24T15:54:06.360560-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/11/13/san-jose-holiday-lights-2026-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "492b596909d3"
+    },
+    {
       "title": "Holidays at Filoli",
       "description": "",
       "venue": "Filoli Historic House and Garden",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.700137-07:00",
+      "start_time": "2026-11-24T15:54:06.362612-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/14/holidays-at-filoli-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "a8f1fa864851"
+      "id": "948a9ec859d4"
     },
     {
       "title": "Glow",
@@ -28,38 +54,12 @@
       "venue": "Exploratorium",
       "neighborhood": "San Francisco",
       "category": "art",
-      "start_time": "2026-11-23T17:34:25.701841-07:00",
+      "start_time": "2026-11-24T15:54:06.364933-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/19/glow-exploratorium-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "431c160588e6"
-    },
-    {
-      "title": "Gary Numan",
-      "description": "",
-      "venue": "The Regency Ballroom",
-      "neighborhood": "Mid-Market",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.703065-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/gary-numan-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "4afe6c7095be"
-    },
-    {
-      "title": "CocoRosie",
-      "description": "",
-      "venue": "The Fillmore",
-      "neighborhood": "Western Addition",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.704279-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/cocorosie-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "965cc00abf28"
+      "id": "07303489e175"
     },
     {
       "title": "Magic Of Lights: Drive-Through Holiday Lights Experience",
@@ -67,25 +67,38 @@
       "venue": "Toyota Pavilion at Concord",
       "neighborhood": "San Francisco",
       "category": "art",
-      "start_time": "2026-11-23T17:34:25.705872-07:00",
+      "start_time": "2026-11-24T15:54:06.367288-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/20/magic-of-lights-drive-through-holiday-lights-experience-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d8c5428e1574"
+      "id": "853ba1df67af"
     },
     {
-      "title": "La Bola Negra",
+      "title": "The Music of Hey Arnold Live! Feat. Jim Lang & the PS 118 AllStars",
       "description": "",
       "venue": "The Castro",
       "neighborhood": "Castro",
-      "category": "film",
-      "start_time": "2026-11-23T17:34:25.707114-07:00",
+      "category": "music",
+      "start_time": "2026-11-24T15:54:06.369065-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/la-bola-negra-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/the-music-of-hey-arnold-live-feat-jim-lang-and-the-ps-118-allstars-with-special-guest-craig-bartlett-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "9003d3d5429b"
+      "id": "94cff9a85e4c"
+    },
+    {
+      "title": "Steve Lacy",
+      "description": "",
+      "venue": "Bill Graham Civic Auditorium",
+      "neighborhood": "San Francisco",
+      "category": "music",
+      "start_time": "2026-11-24T15:54:06.370869-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/11/24/steve-lacy-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "a4ee18a82a9b"
     },
     {
       "title": "The Westin St. Francis Nutcracker Suite Giveaway",
@@ -93,12 +106,12 @@
       "venue": "The Westin St. Francis on Union Square",
       "neighborhood": "Union Square",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.708314-07:00",
+      "start_time": "2026-11-24T15:54:06.372739-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/23/nutcracker-suite-westin-st-francis-union-square",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "91016cbae910"
+      "id": "f0b0b05a3c0f"
     },
     {
       "title": "RM x SFMOMA: Between You and Me",
@@ -106,25 +119,38 @@
       "venue": "SFMOMA",
       "neighborhood": "SoMa",
       "category": "art",
-      "start_time": "2026-11-23T17:34:25.709507-07:00",
+      "start_time": "2026-11-24T15:54:06.374479-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/10/3/rm-x-sfmoma-between-you-and-me-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d3a5cd598a6b"
+      "id": "bb5a9752c763"
     },
     {
-      "title": "Pedro the Lion",
+      "title": "Joe Klocek & Friends",
       "description": "",
-      "venue": "Bottom Of The Hill",
-      "neighborhood": "Potrero Hill",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.710735-07:00",
+      "venue": "Punch Line San Francisco",
+      "neighborhood": "Financial District",
+      "category": "comedy",
+      "start_time": "2026-11-24T15:54:06.376004-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/pedro-the-lion-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/joe-klocek-friends-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "c84c6517fb35"
+      "id": "4a2bd6c1a453"
+    },
+    {
+      "title": "Holiday Shopping at The PIER",
+      "description": "",
+      "venue": "PIER 39",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-11-24T15:54:06.378055-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/11/16/holiday-shopping-at-the-pier-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "120775124b5c"
     },
     {
       "title": "Lightscape",
@@ -132,25 +158,25 @@
       "venue": "San Francisco Botanical Garden",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.711925-07:00",
+      "start_time": "2026-11-24T15:54:06.379794-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/20/lightscape-sf-botanical-garden-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "8157a05e3930"
+      "id": "2b79ae0df2a6"
     },
     {
-      "title": "Bobby McFerrin & Motion: Circlesongs",
+      "title": "Gary Numan",
       "description": "",
-      "venue": "The Freight",
+      "venue": "Golden State Theatre",
       "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.713057-07:00",
+      "category": "culture",
+      "start_time": "2026-11-24T15:54:06.381547-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/bobby-mcferrin-motion-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/gary-numan-north-american-fall-tour-2026-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "f0fe0c49c633"
+      "id": "7a9b468e2d5e"
     },
     {
       "title": "The Banksy Art Exhibit",
@@ -158,181 +184,155 @@
       "venue": "Henry J. Kaiser Center for the Arts",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.713928-07:00",
+      "start_time": "2026-11-24T15:54:06.382965-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/13/the-banksy-art-exhibit-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "8acfc3f40a82"
+      "id": "b25477e8575b"
     },
     {
-      "title": "San Francisco ZooLights",
+      "title": "Ferry Building Tasting Tour + Alcatraz Excursion",
+      "description": "",
+      "venue": "Ferry Building",
+      "neighborhood": "Embarcadero",
+      "category": "food",
+      "start_time": "2026-11-24T15:54:06.384434-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/weekly/tue/ferry-building-tasting-tour-alcatraz-excursion-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "3a7ac43cbfd0"
+    },
+    {
+      "title": "Honey Revenge x Dead Poet Society",
+      "description": "",
+      "venue": "Ace of Spades",
+      "neighborhood": "San Francisco",
+      "category": "music",
+      "start_time": "2026-11-24T15:54:06.385972-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/2026/11/24/honey-revenge-x-dead-poet-society-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "d9596d27b393"
+    },
+    {
+      "title": "Ferry Building & Ferry Plaza Market Food Tour",
+      "description": "",
+      "venue": "Ferry Building",
+      "neighborhood": "Embarcadero",
+      "category": "food",
+      "start_time": "2026-11-24T15:54:06.387425-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/weekly/tue/ferry-building-ferry-plaza-market-food-tour-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "92d1eb732bde"
+    },
+    {
+      "title": "Comedy Confessional",
+      "description": "",
+      "venue": "O’Reillys Pub",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2026-11-24T15:54:06.389319-07:00",
+      "price": "See listing",
+      "url": "https://dothebay.com/events/weekly/tue/comedy-confessional-tickets",
+      "source": "DoTheBay",
+      "image_url": "",
+      "id": "e5e62a5b2670"
+    },
+    {
+      "title": "ZooLights",
       "description": "",
       "venue": "San Francisco Zoo",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.715134-07:00",
+      "start_time": "2026-11-24T15:54:06.391048-07:00",
       "price": "See listing",
       "url": "https://dothebay.com/events/2026/11/6/san-francisco-zoolights-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "5f32b935d383"
+      "id": "0bdeb1f17453"
     },
     {
-      "title": "Back To The Future Thanksgiving Celebration",
+      "title": "Psycroptic + Inferi + Cognitive + Summoning The Lich",
       "description": "",
-      "venue": "Yoshi's Oakland",
+      "venue": "The Ritz",
       "neighborhood": "San Francisco",
       "category": "music",
-      "start_time": "2026-11-23T17:34:25.716349-07:00",
+      "start_time": "2026-11-24T15:54:06.392804-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/back-to-the-future-thanksgiving-celebration-feat-lawrence-matthews-and-derrick-hall-company-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/psycroptic-inferi-cognitive-summoning-the-lich-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "618896a6d283"
+      "id": "fc368f43980d"
     },
     {
-      "title": "Rishab Rikhiram Sharma | Sitar For Mental Health",
-      "description": "",
-      "venue": "Paramount Theatre",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.717564-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/rishab-rikhiram-sharma-sitar-for-mental-health-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "ac8828473598"
-    },
-    {
-      "title": "San Jose Sharks vs. Minnesota Wild",
-      "description": "",
-      "venue": "SAP Center",
-      "neighborhood": "San Francisco",
-      "category": "sports",
-      "start_time": "2026-11-23T17:34:25.718647-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/san-jose-sharks-vs-minnesota-wild-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "0aafff060d18"
-    },
-    {
-      "title": "Official Gary Numan After Party",
-      "description": "",
-      "venue": "DNA Lounge",
-      "neighborhood": "SoMa",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.719729-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/official-gary-numan-after-party-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "eab3238c4138"
-    },
-    {
-      "title": "Dark Habits",
+      "title": "Zhang Yimou’s Raise the Red Lantern (4K Restoration)",
       "description": "",
       "venue": "Roxie Theater",
       "neighborhood": "Mission",
       "category": "film",
-      "start_time": "2026-11-23T17:34:25.720800-07:00",
+      "start_time": "2026-11-24T15:54:06.394498-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/dark-habits-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/zhang-yimou-s-raise-the-red-lantern-4k-restoration-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "0e28c7933072"
+      "id": "30d717f45a0c"
     },
     {
-      "title": "The Fall Shindig Feat. Pher The Legend + Wake Naked",
+      "title": "Musical Bingo",
       "description": "",
-      "venue": "Ivy Room",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.721880-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/the-fall-shindig-feat-pher-the-legend-wake-naked-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "ea71b2152bf3"
-    },
-    {
-      "title": "Gettin Knit",
-      "description": "",
-      "venue": "The Lone Star Saloon",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-11-23T17:34:25.723103-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/gettin-knit-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "e3104db35d3a"
-    },
-    {
-      "title": "Science Buzz Cafe",
-      "description": "",
-      "venue": "Hopmonk Tavern - Sebastopol",
-      "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.724178-07:00",
-      "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/science-buzz-cafe-tickets",
-      "source": "DoTheBay",
-      "image_url": "",
-      "id": "cc9e1e93c635"
-    },
-    {
-      "title": "Beaucoup Dolores + Anna Laura Quinn - Santa Rosa",
-      "description": "",
-      "venue": "The Lost Church Santa Rosa",
+      "venue": "Townhouse Cocktail Lounge",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.725015-07:00",
+      "start_time": "2026-11-24T15:54:06.396260-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/beaucoup-dolores-anna-laura-quinn-santa-rosa-tickets",
+      "url": "https://dothebay.com/events/weekly/tue/musical-bingo-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "eb56584ce203"
+      "id": "5dc2f8969243"
     },
     {
-      "title": "JASON MOVRICH & FRIENDS PLAY THE DEAD",
+      "title": "Tuesday Trivia",
       "description": "",
-      "venue": "WINTERS TAVERN - PACIFICA",
+      "venue": "Halfway Club",
       "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.726066-07:00",
+      "category": "culture",
+      "start_time": "2026-11-24T15:54:06.397996-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/jason-movrich-friends-play-the-dead-tickets",
+      "url": "https://dothebay.com/events/weekly/tue/tuesday-trivia-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "a45489a56612"
+      "id": "9eadec19a1b7"
     },
     {
-      "title": "Elena Gabrielle – Disturb the Vibe",
+      "title": "Water For Elephants",
       "description": "",
-      "venue": "The Lost Church San Francisco",
+      "venue": "Orpheum Theatre",
       "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-23T17:34:25.727149-07:00",
+      "category": "theater",
+      "start_time": "2026-11-24T15:54:06.399684-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/elena-gabrielle-disturb-the-vibe-tickets",
+      "url": "https://dothebay.com/events/2026/11/24/water-for-elephants-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "97447d89cd4b"
+      "id": "4dae00b3552c"
     },
     {
-      "title": "Point Blank (1967)",
+      "title": "Marina Comedy",
       "description": "",
-      "venue": "Alamo Drafthouse Cinema",
-      "neighborhood": "Mission",
-      "category": "film",
-      "start_time": "2026-11-23T17:34:25.728238-07:00",
+      "venue": "Silver Cloud SF",
+      "neighborhood": "Marina",
+      "category": "comedy",
+      "start_time": "2026-11-24T15:54:06.401445-07:00",
       "price": "See listing",
-      "url": "https://dothebay.com/events/2026/11/23/point-blank-1967-tickets",
+      "url": "https://dothebay.com/events/weekly/tue/silver-cloud-showcase-tickets",
       "source": "DoTheBay",
       "image_url": "",
-      "id": "d245ef2de08a"
+      "id": "c4c87c56b30c"
     },
     {
       "title": "Let's Glow SF 2026",
@@ -340,12 +340,12 @@
       "venue": "Dec",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.846914-07:00",
+      "start_time": "2026-11-24T15:54:06.580643-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/lets-glow-sf-2025-1",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "f8e30286ad93"
+      "id": "6e7a039452bf"
     },
     {
       "title": "Nights of Wonder",
@@ -353,12 +353,12 @@
       "venue": "Transamerica Redwood Park",
       "neighborhood": "San Francisco",
       "category": "culture",
-      "start_time": "2026-11-23T17:34:25.847224-07:00",
+      "start_time": "2026-11-24T15:54:06.581054-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/nights-of-wonder-pyramid-of-light",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "d890e82f86a1"
+      "id": "84c7d442bf7b"
     },
     {
       "title": "Exhibition",
@@ -366,90 +366,12 @@
       "venue": "Transamerica Pyramid Center",
       "neighborhood": "San Francisco",
       "category": "art",
-      "start_time": "2026-11-23T17:34:25.847558-07:00",
+      "start_time": "2026-11-24T15:54:06.581741-07:00",
       "price": "Free",
       "url": "https://downtownsf.org/do/exhibition-future-pastime-by-syd-mead",
       "source": "DowntownSF",
       "image_url": "",
-      "id": "456c10570e7a"
-    },
-    {
-      "title": "Durable AI Meetup (November Edition)",
-      "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "tech",
-      "start_time": "2026-11-24T01:30:00.000Z",
-      "price": "See listing",
-      "url": "https://luma.com/durable-ai-november",
-      "source": "Luma",
-      "image_url": "",
-      "id": "051c6259f2f7"
-    },
-    {
-      "title": "Real Estate Investment Networking Event",
-      "description": "Real Estate Investment Networking Series: Creating Assets is the KEY, this series goes into details How to Buy, Develop, Invest, Manage Real Estate Assets and Grow Passive Income through Real Estate Topic: How to Earn BIG Profits Fix & Flipping and Wholesaling Properties- PART ONE",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "art",
-      "start_time": "2026-11-24T01:35:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/real-estate-wealth-la/events/317071301/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-5-square.webp",
-      "id": "8faaeeff6487"
-    },
-    {
-      "title": "Degrees of Freedom: Embodied AI Builders Night @ Mission Robotics",
-      "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "tech",
-      "start_time": "2026-11-24T02:00:00.000Z",
-      "price": "See listing",
-      "url": "https://luma.com/mission-u38j",
-      "source": "Luma",
-      "image_url": "",
-      "id": "651274157f0e"
-    },
-    {
-      "title": "Special Guest: Matt Goldstein – Vocal Flow",
-      "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-11-24T02:00:00.000Z",
-      "price": "See listing",
-      "url": "https://luma.com/rg97dp37",
-      "source": "Luma",
-      "image_url": "",
-      "id": "7e7d389338a9"
-    },
-    {
-      "title": "VxLang: A systems programming language for heterogeneous computing – Aditya Kumar",
-      "description": "",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-11-24T03:00:00.000Z",
-      "price": "See listing",
-      "url": "https://luma.com/zc0quhtf",
-      "source": "Luma",
-      "image_url": "",
-      "id": "929bb5739a5e"
-    },
-    {
-      "title": "20s & 30s Speed Friending : Madrones Monday Night Groove!!",
-      "description": "**RSVP via:** https://app.gistirl.com/event-details/asa03auZVD6kiC54RzOR **Early Bird Discounts | More $ Later** WOW EVERYODY!! We had a huge turnout last time. So here we go for our 4th Series!!! ;) EVENT WILL BE CAPPED AT 80 PEOPLE! Here, you'll meet someone new every 8 minutes! Literal speed-frie",
-      "venue": "Madrone Art Bar",
-      "neighborhood": "San Francisco",
-      "category": "nightlife",
-      "start_time": "2026-11-24T03:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/gist-irl/events/316633063/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
-      "id": "745516430a83"
+      "id": "9b02c442981a"
     },
     {
       "title": "Fall Holiday Farmers Market",
@@ -489,6 +411,32 @@
       "source": "Luma",
       "image_url": "",
       "id": "65caf37735ec"
+    },
+    {
+      "title": "Free Intuitive Readings",
+      "description": "Once a month, I offer free intuitive and mediumship readings, about 15 minutes each for four people, booked on a first-come, first-served basis. Sign up and get a free reading!",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "lectures",
+      "start_time": "2026-11-26T04:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/findingcenter/events/316974121/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-5-square.webp",
+      "id": "f2124c17116d"
+    },
+    {
+      "title": "Thanksgiving Day Meal Packing for Those in Need!",
+      "description": "**RSVP via:** https://app.gistirl.com/event-details/Cy0j2Wq7ePYdikUlXKHA **Early Bird Discounts | More $ Later** Hey Volunteers, For those who aren't going home for Thanksgiving, let's volunteer and help some people in need. <3 Come join me and new friends this morning to pack fresh, Thanksgiving gr",
+      "venue": "Project Open Hand",
+      "neighborhood": "San Francisco",
+      "category": "nightlife",
+      "start_time": "2026-11-26T16:30:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/gist-irl/events/317402381/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
+      "id": "ca0c7a739916"
     },
     {
       "title": "Walking Tour",
@@ -556,6 +504,19 @@
       "id": "019b091f8c7c"
     },
     {
+      "title": "Build Tools for Good: An Afternoon of Giving Back",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-11-27T20:30:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/apbhgqus",
+      "source": "Luma",
+      "image_url": "",
+      "id": "3ee14a183e1d"
+    },
+    {
       "title": "Golden Gate Park Hidden Spots Walk 🌿",
       "description": "Join us for a walk through some of the quieter, lesser-known corners of Golden Gate Park. We’ll explore a sequence of beautiful and reflective spots, with plenty of time to enjoy the scenery along the way. **Meeting Point** We’ll meet **in front of the Conservatory of Flowers** (by the stairs) befor",
       "venue": "Conservatory of Flowers",
@@ -595,17 +556,30 @@
       "id": "fa822a7000b7"
     },
     {
-      "title": "San Francisco Symphony’s “Black Friday Sale” Up to 50% Off (Nov. 23-30) - 50% Off",
-      "description": "The post San Francisco Symphony’s “Black Friday Sale” Up to 50% Off (Nov. 23-30) appeared first on Funcheap .",
+      "title": "art x robotics salon @ Mission Robotics",
+      "description": "",
       "venue": "",
       "neighborhood": "San Francisco",
-      "category": "music",
-      "start_time": "2026-11-30T19:00:00-07:00",
+      "category": "art",
+      "start_time": "2026-12-01T02:30:00.000Z",
       "price": "See listing",
-      "url": "https://sf.funcheap.com/san-francisco-symphonys-black-friday-sale-up-to-50-off-nov-23-30-8/",
-      "source": "FunCheap",
+      "url": "https://luma.com/80gmvbcg",
+      "source": "Luma",
       "image_url": "",
-      "id": "825b96f6086a"
+      "id": "be4fdcfe5c0f"
+    },
+    {
+      "title": "How to build a sales agent (free) ",
+      "description": "A sales system shouldn't need someone sitting in front of it all day telling it what to do next. The interesting part of agentic sales isn't getting an AI to write stuff, that is the one part it shouldn't do. It's getting a system to make decisions across the entire sales cycle. The unit of work is ",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "art",
+      "start_time": "2026-12-01T03:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/counter/events/317523861/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-5-square.webp",
+      "id": "6ec01887b748"
     },
     {
       "title": "555 California Street Holiday Tree Lighting and Mercantile",
@@ -699,7 +673,20 @@
       "id": "2cad9d505360"
     },
     {
-      "title": "Hardware Fireside Chat @ Flux | Make SF Better with Water, Energy, Waste Treatment, and Infra",
+      "title": "FastMCP Meetup",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-12-03T02:00:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/fastmcp-meetup-dec26",
+      "source": "Luma",
+      "image_url": "",
+      "id": "a1ce7a3cd468"
+    },
+    {
+      "title": "Hardware Fireside Chat @ Studio 45 with Flux | Make SF Better with Water, Energy, Waste Treatment, and Infra",
       "description": "",
       "venue": "",
       "neighborhood": "San Francisco",
@@ -709,7 +696,7 @@
       "url": "https://luma.com/lx81wh0i",
       "source": "Luma",
       "image_url": "",
-      "id": "b4f309c9b8b5"
+      "id": "982955765024"
     },
     {
       "title": "San Francisco, Uncovered: The Stories Behind the Skyline",
@@ -751,6 +738,19 @@
       "id": "f57c6bd89d61"
     },
     {
+      "title": "Agentic Code Review Demo Night",
+      "description": "",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-12-04T01:00:00.000Z",
+      "price": "See listing",
+      "url": "https://luma.com/posthog-review-demos",
+      "source": "Luma",
+      "image_url": "",
+      "id": "5dc95792226f"
+    },
+    {
       "title": "Antler SF After Dark V2: Building with Voice",
       "description": "",
       "venue": "",
@@ -790,6 +790,19 @@
       "id": "b40fb5e5fc16"
     },
     {
+      "title": "NightLife: Naughty or Nice (California Academy of Sciences)",
+      "description": "Let's get naughty this holiday season! Are you single and ready to mingle? Dress in red and visit us at Cal Academy this December to meet the love of your life... or make friends. that's cool too. Either way, with the Cal Acdemy NightLife admission ticket, you will make unforgettable holiday memorie",
+      "venue": "California Academy of Sciences",
+      "neighborhood": "San Francisco",
+      "category": "nightlife",
+      "start_time": "2026-12-04T02:00:00.000Z",
+      "price": "See listing",
+      "url": "https://www.meetup.com/bay-area-millennials-and-gen-z-meetup-group/events/317007354/",
+      "source": "Meetup",
+      "image_url": "/images/fallbacks/redesign/group-cover-4-square.webp",
+      "id": "0654b46627dd"
+    },
+    {
       "title": "Mixer & Networking Meetup",
       "description": "This is a great opportunity to meet new people and make new connections. Feel free to bring a friend or join solo. Everyone is welcome. Let’s speed date for eight minutes and see if you click. Make new friends and new connections! The location will be updated based on the RSVP numbers. Please DM if ",
       "venue": "Rye Cocktail Bar",
@@ -816,19 +829,6 @@
       "id": "db98e5892115"
     },
     {
-      "title": "Countdown to Glow",
-      "description": "",
-      "venue": "6pm - 7pm",
-      "neighborhood": "San Francisco",
-      "category": "culture",
-      "start_time": "2026-12-04T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://downtownsf.org/do/countdown-to-glow-1",
-      "source": "DowntownSF",
-      "image_url": "",
-      "id": "233592104431"
-    },
-    {
       "title": "Let’s Glow with the Corgs",
       "description": "",
       "venue": "6pm - 8pm",
@@ -840,6 +840,19 @@
       "source": "DowntownSF",
       "image_url": "",
       "id": "ab1e0fa988c5"
+    },
+    {
+      "title": "Countdown to Glow",
+      "description": "",
+      "venue": "6pm - 7pm",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-12-04T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://downtownsf.org/do/countdown-to-glow-1",
+      "source": "DowntownSF",
+      "image_url": "",
+      "id": "233592104431"
     },
     {
       "title": "Book Swap+ Movie Night!",
@@ -881,19 +894,6 @@
       "id": "617f99c1d575"
     },
     {
-      "title": "SF’s 2026 “Winterfest” at Salesforce Park (Dec. 4-6) - FREE",
-      "description": "The post SF’s 2026 “Winterfest” at Salesforce Park (Dec. 4-6) appeared first on Funcheap .",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "outdoor",
-      "start_time": "2026-12-06T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/sfs-2026-winterfest-at-salesforce-park-dec-4-6-2/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "877e023a9ea3"
-    },
-    {
       "title": "HEAD WEST Marketplace",
       "description": "",
       "venue": "Ferry Building",
@@ -918,19 +918,6 @@
       "source": "DowntownSF",
       "image_url": "",
       "id": "cfe528489b89"
-    },
-    {
-      "title": "Union Square’s 2026 Chanukah Festival: 25-Foot-Tall Menorah (4th Night) - FREE",
-      "description": "The post Union Square’s 2026 Chanukah Festival: 25-Foot-Tall Menorah (4th Night) appeared first on Funcheap .",
-      "venue": "",
-      "neighborhood": "Union Square",
-      "category": "culture",
-      "start_time": "2026-12-07T19:00:00-07:00",
-      "price": "Free",
-      "url": "https://sf.funcheap.com/union-squares-2026-chanukah-festival-lighting-ceremony/",
-      "source": "FunCheap",
-      "image_url": "",
-      "id": "c6eb75811920"
     },
     {
       "title": "Union Square’s 2026 Chanukah Festival: 25-Foot-Tall Menorah (5th Night) - FREE",
@@ -1063,17 +1050,17 @@
       "id": "3ffea8ffdbcb"
     },
     {
-      "title": "Open-source AI contribution clinic: reproduce, review and improve",
-      "description": "A live, interactive AumOS session, open to everyone. Level: engineering / open source & research. **What you will do:** Turn a technical question into a small, attributable and reproducible contribution proposal. **Prerequisites:** Bring a public issue, documentation problem or small experiment; beg",
-      "venue": "",
-      "neighborhood": "San Francisco",
-      "category": "tech",
-      "start_time": "2026-12-20T17:00:00.000Z",
-      "price": "See listing",
-      "url": "https://www.meetup.com/aumos-sf-bay-area-ai-builders-open-source/events/317480915/",
-      "source": "Meetup",
-      "image_url": "/images/fallbacks/redesign/group-cover-2-square.webp",
-      "id": "8f951b06152f"
+      "title": "Comedy Allstars",
+      "description": "",
+      "venue": "The Punch Line",
+      "neighborhood": "Financial District",
+      "category": "comedy",
+      "start_time": "2026-12-23T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://downtownsf.org/do/comedy-allstars",
+      "source": "DowntownSF",
+      "image_url": "",
+      "id": "8d0d88063d34"
     },
     {
       "title": "Holidays at Verjus",
@@ -1115,6 +1102,19 @@
       "id": "ea84e9af5a8f"
     },
     {
+      "title": "Your Next Comic",
+      "description": "",
+      "venue": "4pm",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2026-12-27T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://downtownsf.org/do/your-next-comic-a-new-faces-showcase-san-francisco",
+      "source": "DowntownSF",
+      "image_url": "",
+      "id": "8d73a82c439b"
+    },
+    {
       "title": "New Year's Eve Party at PABU",
       "description": "",
       "venue": "",
@@ -1152,6 +1152,45 @@
       "source": "DowntownSF",
       "image_url": "",
       "id": "7686ce04b1dc"
+    },
+    {
+      "title": "San Francisco Midnight Mystery Ride (Every Third Saturday) - FREE",
+      "description": "The post San Francisco Midnight Mystery Ride (Every Third Saturday) appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "culture",
+      "start_time": "2027-02-20T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/san-francisco-midnight-mystery-ride-every-third-saturday-16/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "aa5dfbef463f"
+    },
+    {
+      "title": "Coit Comedy: Stand Up Comedy & Free Golden Boy Pizza | SF - $5",
+      "description": "The post Coit Comedy: Stand Up Comedy & Free Golden Boy Pizza | SF appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "comedy",
+      "start_time": "2027-02-25T19:00:00-07:00",
+      "price": "$5",
+      "url": "https://sf.funcheap.com/coit-comedy-stand-up-comedy-free-golden-boy-pizza-sf-89/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "b9d11deedb25"
+    },
+    {
+      "title": "SF’s “Sundays at the Beach” Free Yoga Day (Great Highway) - FREE",
+      "description": "The post SF’s “Sundays at the Beach” Free Yoga Day (Great Highway) appeared first on Funcheap .",
+      "venue": "",
+      "neighborhood": "San Francisco",
+      "category": "outdoor",
+      "start_time": "2027-02-28T19:00:00-07:00",
+      "price": "Free",
+      "url": "https://sf.funcheap.com/sfs-sundays-at-the-beach-free-yoga-day-great-highway-43/",
+      "source": "FunCheap",
+      "image_url": "",
+      "id": "0b1279317281"
     }
   ]
 }
